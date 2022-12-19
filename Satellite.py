@@ -9,36 +9,115 @@
 """Satellite Tracking GUI developed using PyQt6"""
 
 import sys
-import numpy as np
-
 from sgp4 import api
+import numpy as np
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import *
+from PyQt6.QtMultimedia import QMediaPlayer, QVideoFrame
+from PyQt6.QtMultimediaWidgets import QVideoWidget, QGraphicsVideoItem
+from PyQt6.QtQml import QQmlApplicationEngine
 from datetime import datetime, timedelta
-
 import matplotlib
-matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg, NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
+matplotlib.use('Qt5Agg')
 
+class VideoPlayer(QWidget):
+    def __init__(self, parent=None):
+        super(VideoPlayer, self).__init__(parent)
+        self.resize(600, 400)
+        self.setup()
+        self.show()
+        
+    def setup(self):
+        self.mediaPlayer = QMediaPlayer(None, QMediaPlayer.VideoSurface)
+
+        btnSize = QSize(16, 16)
+        videoWidget = QVideoWidget()
+        
+        fileName = "/Users/junyiho/Desktop/Centad/Video/video.mp4"
+
+        self.playButton = QPushButton()
+        self.playButton.setEnabled(True)
+        self.playButton.setFixedHeight(24)
+        self.playButton.setIconSize(btnSize)
+        self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
+        self.playButton.clicked.connect(self.play)
+
+        self.positionSlider = QSlider(Qt.Horizontal)
+        self.positionSlider.setRange(0, 0)
+        self.positionSlider.sliderMoved.connect(self.setPosition)
+
+        self.statusBar = QStatusBar()
+        self.statusBar.setFont(QFont("Noto Sans", 7))
+        self.statusBar.setFixedHeight(14)
+
+        controlLayout = QHBoxLayout()
+        controlLayout.setContentsMargins(0, 0, 0, 0)
+        controlLayout.addWidget(self.playButton)
+        controlLayout.addWidget(self.positionSlider)
+
+        layout = QVBoxLayout()
+        layout.addWidget(videoWidget)
+        layout.addLayout(controlLayout)
+        layout.addWidget(self.statusBar)
+
+        self.setLayout(layout)
+
+        self.mediaPlayer.setVideoOutput(videoWidget)
+        self.mediaPlayer.stateChanged.connect(self.mediaStateChanged)
+        self.mediaPlayer.positionChanged.connect(self.positionChanged)
+        self.mediaPlayer.durationChanged.connect(self.durationChanged)
+        self.mediaPlayer.error.connect(self.handleError)
+        self.statusBar.showMessage("Ready")
+        
+        self.abrir(fileName)
+
+    def abrir(self, fileName):
+        if fileName != '':
+            self.mediaPlayer.setMedia(
+                    QMediaContent(QUrl.fromLocalFile(fileName)))
+            self.playButton.setEnabled(True)
+            self.statusBar.showMessage(fileName)
+            self.play()
+
+    def play(self):
+        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
+            self.mediaPlayer.pause()
+        else:
+            self.mediaPlayer.play()
+
+    def mediaStateChanged(self, state):
+        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
+            self.playButton.setIcon(
+                    self.style().standardIcon(QStyle.SP_MediaPause))
+        else:
+            self.playButton.setIcon(
+                    self.style().standardIcon(QStyle.SP_MediaPlay))
+
+    def positionChanged(self, position):
+        self.positionSlider.setValue(position)
+
+    def durationChanged(self, duration):
+        self.positionSlider.setRange(0, duration)
+
+    def setPosition(self, position):
+        self.mediaPlayer.setPosition(position)
+
+    def handleError(self):
+        self.playButton.setEnabled(False)
+        self.statusBar.showMessage("Error: " + self.mediaPlayer.errorString())
 
 class MplCanvas(FigureCanvasQTAgg):
-    def __init__(self, parent=None, width=5, height=4, dpi=100):
-        fig = Figure(figsize=(width, height), dpi=dpi)
-        
-        r = np.arange(0, 2, 0.01)
-        theta = 2 * np.pi * r
-
-        theta = np.linspace(0, 2*np.pi, 2001)
-        curve1 = 5*np.cos(theta)
-
-
-        self.axes = fig.add_subplot(polar=True)
-        self.axes.plot(theta, curve1, color='xkcd:salmon', label='rose curve1')
+    def __init__(self, azimuth, elevation, width=5, height=4, dpi=100):
+        fig = plt.figure(figsize=(width, height), dpi=dpi)
+        ax = fig.add_subplot(polar=True)
+        ax.set_ylim(90, 0)
+        ax.set_yticks(np.arange(90,0, -30))
+        ax.plot(azimuth,elevation, lw=2)
         super(MplCanvas, self).__init__(fig)
-
 
 WINDOW_SIZE = 900
 
@@ -164,8 +243,19 @@ class Satellite(QMainWindow):
         return layout
     
     def polarPlot(self):
-        sc = MplCanvas(self, width=5, height=4, dpi=100)
+        with open("data.txt", "r") as f:
+            x = f.readlines()
+            az, el = [], []
+            for txt in x:
+                
+                clean = txt[txt.find("AZ: ") + 4 : txt.find(", RX: ")]
+                az.append(float(clean[ : clean.find(",")]))
+                el.append(float(clean[clean.find(",")+6 : ]))
+                
+        azimuth = np.array(az)*np.pi/180
+        elevation = np.array(el)
         
+        sc = MplCanvas(azimuth, elevation, width=5, height=4, dpi=100)
         toolbar = NavigationToolbar(sc, self)
 
         layout = QGridLayout()
@@ -190,9 +280,16 @@ class Satellite(QMainWindow):
         layout.addWidget(linetop,   0,      0,      1,        maxcol+1)    
         layout.addWidget(linebtm,   maxrow, 0,      1,        maxcol+1)
         
+        # window = QWidget()
+
+        # engine = QQmlApplicationEngine()
+        # engine.rootContext().setContextProperty('window', window)
+        # engine.load('/Users/junyiho/Desktop/Centad/Video/media.qml')
+        # layout.addWidget(engine, 1, 1, maxrow-1, maxcol-1)
+        
+        
         return layout
         
-    
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     Sate = Satellite()
