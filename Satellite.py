@@ -6,110 +6,42 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-"""Satellite Tracking GUI developed using PyQt6"""
+"""Satellite Tracking GUI developed using PyQt5"""
 
 import sys
-from sgp4 import api
 import numpy as np
-from PyQt6.QtWidgets import *
-from PyQt6.QtCore import Qt
-from PyQt6.QtGui import *
-from PyQt6.QtMultimedia import QMediaPlayer, QVideoFrame
-from PyQt6.QtMultimediaWidgets import QVideoWidget, QGraphicsVideoItem
-from PyQt6.QtQml import QQmlApplicationEngine
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import Qt, QUrl, QRect
+from PyQt5.QtGui import *
+from PyQt5.QtMultimedia import QMediaPlayer
+from PyQt5.QtMultimediaWidgets import QVideoWidget
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 from datetime import datetime, timedelta
+import plotly.graph_objects as go
+import plotly.offline as offline
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg, NavigationToolbar2QT as NavigationToolbar
-from matplotlib.figure import Figure
 matplotlib.use('Qt5Agg')
 
-class VideoPlayer(QWidget):
-    def __init__(self, parent=None):
-        super(VideoPlayer, self).__init__(parent)
-        self.resize(600, 400)
-        self.setup()
-        self.show()
-        
-    def setup(self):
-        self.mediaPlayer = QMediaPlayer(None, QMediaPlayer.VideoSurface)
-
-        btnSize = QSize(16, 16)
+class VideoPlayer(QVideoWidget):
+    def __init__(self):
+        super(VideoPlayer, self).__init__()
         videoWidget = QVideoWidget()
         
-        fileName = "/Users/junyiho/Desktop/Centad/Video/video.mp4"
-
-        self.playButton = QPushButton()
-        self.playButton.setEnabled(True)
-        self.playButton.setFixedHeight(24)
-        self.playButton.setIconSize(btnSize)
-        self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
-        self.playButton.clicked.connect(self.play)
-
-        self.positionSlider = QSlider(Qt.Horizontal)
-        self.positionSlider.setRange(0, 0)
-        self.positionSlider.sliderMoved.connect(self.setPosition)
-
-        self.statusBar = QStatusBar()
-        self.statusBar.setFont(QFont("Noto Sans", 7))
-        self.statusBar.setFixedHeight(14)
-
-        controlLayout = QHBoxLayout()
-        controlLayout.setContentsMargins(0, 0, 0, 0)
-        controlLayout.addWidget(self.playButton)
-        controlLayout.addWidget(self.positionSlider)
-
         layout = QVBoxLayout()
         layout.addWidget(videoWidget)
-        layout.addLayout(controlLayout)
-        layout.addWidget(self.statusBar)
-
         self.setLayout(layout)
-
-        self.mediaPlayer.setVideoOutput(videoWidget)
-        self.mediaPlayer.stateChanged.connect(self.mediaStateChanged)
-        self.mediaPlayer.positionChanged.connect(self.positionChanged)
-        self.mediaPlayer.durationChanged.connect(self.durationChanged)
-        self.mediaPlayer.error.connect(self.handleError)
-        self.statusBar.showMessage("Ready")
         
-        self.abrir(fileName)
-
-    def abrir(self, fileName):
-        if fileName != '':
-            self.mediaPlayer.setMedia(
-                    QMediaContent(QUrl.fromLocalFile(fileName)))
-            self.playButton.setEnabled(True)
-            self.statusBar.showMessage(fileName)
-            self.play()
-
-    def play(self):
-        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
-            self.mediaPlayer.pause()
-        else:
-            self.mediaPlayer.play()
-
-    def mediaStateChanged(self, state):
-        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
-            self.playButton.setIcon(
-                    self.style().standardIcon(QStyle.SP_MediaPause))
-        else:
-            self.playButton.setIcon(
-                    self.style().standardIcon(QStyle.SP_MediaPlay))
-
-    def positionChanged(self, position):
-        self.positionSlider.setValue(position)
-
-    def durationChanged(self, duration):
-        self.positionSlider.setRange(0, duration)
-
-    def setPosition(self, position):
-        self.mediaPlayer.setPosition(position)
-
-    def handleError(self):
-        self.playButton.setEnabled(False)
-        self.statusBar.showMessage("Error: " + self.mediaPlayer.errorString())
-
+        MediaPlayer = QMediaPlayer()
+        MediaPlayer.setVideoOutput(videoWidget)
+        MediaPlayer.setSource(QUrl.fromLocalFile("/Users/junyiho/Desktop/Centad/video.mp4"))
+        MediaPlayer.play()
+        
+        self.mediaplayer = MediaPlayer
+        self.resize(600, 400)
+        self.show()
+        
 class MplCanvas(FigureCanvasQTAgg):
     def __init__(self, azimuth, elevation, width=5, height=4, dpi=100):
         fig = plt.figure(figsize=(width, height), dpi=dpi)
@@ -130,11 +62,11 @@ class Satellite(QMainWindow):
         self.setWindowTitle("Satellite Tracker")
         self.setMinimumSize(WINDOW_SIZE, WINDOW_SIZE)
         
-        mainlayout = QVBoxLayout()
+        firstrow = QHBoxLayout()
         timedis = self.displayTime()
         posdis = self.displayPosition()
-        mainlayout.addLayout(timedis)
-        mainlayout.addLayout(posdis)
+        firstrow.addLayout(timedis)
+        firstrow.addLayout(posdis)
         
         sidelayout = QHBoxLayout()
         pplot = self.polarPlot()
@@ -142,6 +74,8 @@ class Satellite(QMainWindow):
         sidelayout.addLayout(pplot)
         sidelayout.addLayout(cctv)
         
+        mainlayout = QVBoxLayout()
+        mainlayout.addLayout(firstrow)
         mainlayout.addLayout(sidelayout)
         
         widget = QWidget()
@@ -214,7 +148,7 @@ class Satellite(QMainWindow):
         headers = ["Satellite", "Name", "Location", "Azimuth", "Elevation"]
         title, SatName, SatLoc, SatAzi, SatEle = [self.setText(i) for i in headers]
         
-        details = ["Orion", "Jurong", "99.2", "76.1"]
+        details = ["VELOX 2", "Singapore", "99.2", "76.1"]
         Name1, Loc1, Azi1, Ele1 = [self.setText(i) for i in details]
         
         H = [self.setLine("H") for i in range(3)]
@@ -226,14 +160,14 @@ class Satellite(QMainWindow):
         line2.setStyleSheet("color:transparent")
         line3.setStyleSheet("color:transparent")
 
-        maxrow, maxcol = 5, 8
+        maxrow, maxcol = 6, 8
 
         layout.addWidget(lineleft,  0,      0,      maxrow+1, 1) 
         layout.addWidget(lineright, 0,      maxcol, maxrow+1, 1)
         layout.addWidget(linetop,   0,      0,      1,        maxcol+1)    
         layout.addWidget(linebtm,   maxrow, 0,      1,        maxcol+1)
         layout.addWidget(linemid1, 2, 0, 1, maxcol+1)
-        [layout.addWidget(name, 2, pos*2, maxrow-1, 1) for pos, name in enumerate([line1, line2, line3], start=1)]
+        [layout.addWidget(name, 2, pos*2, maxrow-1, 1) for pos, name in enumerate([line1, line2, line3], start=1)] ##invisible lines to format consistent gap
         
         
         layout.addWidget(title, 1, 1, 1, maxcol)
@@ -273,24 +207,44 @@ class Satellite(QMainWindow):
         
         layout = QGridLayout()
 
-        maxrow, maxcol = 30,30
+        maxrow, maxcol = 2,2
 
         layout.addWidget(lineleft,  0,      0,      maxrow+1, 1) 
         layout.addWidget(lineright, 0,      maxcol, maxrow+1, 1)
         layout.addWidget(linetop,   0,      0,      1,        maxcol+1)    
         layout.addWidget(linebtm,   maxrow, 0,      1,        maxcol+1)
         
-        # window = QWidget()
+        fig = go.Figure(go.Scattermapbox(
+            mode = "markers+lines",
+            lon = [10, 20, 30],
+            lat = [10, 20,30],
+            marker = {'size': 10}))
 
-        # engine = QQmlApplicationEngine()
-        # engine.rootContext().setContextProperty('window', window)
-        # engine.load('/Users/junyiho/Desktop/Centad/Video/media.qml')
-        # layout.addWidget(engine, 1, 1, maxrow-1, maxcol-1)
+        fig.add_trace(go.Scattermapbox(
+            mode = "markers+lines",
+            lon = [-50, -60,40],
+            lat = [30, 10, -20],
+            marker = {'size': 10}))
+
+        fig.update_layout(
+            margin ={'l':0,'t':0,'b':0,'r':0},
+            mapbox = {
+                'center': {'lon': 10, 'lat': 10},
+                'style': "stamen-terrain",
+                'center': {'lon': -20, 'lat': -20},
+                'zoom': 1})
+
+        offline.plot(fig, filename='myplot.html', auto_open=False)
         
+        webview = QWebEngineView(self)
+        webview.setGeometry(QRect(0, 0, 800, 600))
+        webview.setUrl(QUrl.fromLocalFile('/Users/junyiho/Desktop/Centad/myplot.html')) ##set path
+        layout.addWidget(webview, 1, 1)
         
         return layout
         
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     Sate = Satellite()
+    # player = VideoPlayer()
     sys.exit(app.exec())
