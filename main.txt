@@ -1,0 +1,1265 @@
+1670382139.305 default: Tracking Satellite No. 3 in next ground pass
+1670382139.333 default: Select Lumelite 3 TX: 436800500 Rx: 436800500
+1670382139.333 default: Satellite Element ID: 41170
+1670382139.333 default: TLE update (Celestrack) starting ...
+1670382139.333 default: Element URL 
+1670382139.333 default: TLE1: 1 41170U 15077E   22205.51925578  .00008787  00000+0  35069-3 0  9991
+1670382139.333 default: TLE2: 2 41170  14.9865 166.6295 0010368  70.0834 290.0604 15.20998144365876
+1670382139.333 default: TLE update done
+1670382139.334 default: AOS: Wed Dec  7 10:53:11 2022 1670385191 @ 250 deg azimuth
+1670382139.334 default: LOS: Wed Dec  7 11:05:28 2022 1670385928 @ 77 deg azimuth
+1670382139.334 default: Max Elevation: 69 deg elevation 165 deg azimuth @ Wed Dec  7 10:59:19 2022
+1670382139.334 default: Ground pass initialisation done.
+1670382139.334 default: Preparing for next ground pass ...
+1670385191.977 default: Ground pass begin: Wed Dec  7 10:53:11 2022
+1670385191.977 default: AZEL CMD locked.
+1670385191.977 default: AZ: 250.148228, EL: 0.015562, RX: 436810106 TX: 436790893
+1670385191.977 default: Sat Latitude: -6.127338, Longitude: 83.054433, Altitude: 500.263405 km, Velocity: 7.613801 km/s
+1670385191.977 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385193.977 default: AZEL CMD locked.
+1670385193.977 default: AZ: 250.124304, EL: 0.134444, RX: 436810106 TX: 436790893
+1670385193.977 default: Sat Latitude: -6.097040, Longitude: 83.169992, Altitude: 500.262422 km, Velocity: 7.613801 km/s
+1670385193.977 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385195.977 default: AZEL CMD locked.
+1670385195.977 default: AZ: 250.100143, EL: 0.253942, RX: 436810105 TX: 436790894
+1670385195.977 default: Sat Latitude: -6.066714, Longitude: 83.285540, Altitude: 500.261412 km, Velocity: 7.613800 km/s
+1670385195.977 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385197.978 default: AZEL CMD locked.
+1670385197.978 default: AZ: 250.075740, EL: 0.374061, RX: 436810105 TX: 436790894
+1670385197.978 default: Sat Latitude: -6.036359, Longitude: 83.401072, Altitude: 500.260378 km, Velocity: 7.613800 km/s
+1670385197.978 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385199.978 default: AZEL CMD locked.
+1670385199.978 default: AZ: 250.051092, EL: 0.494814, RX: 436810104 TX: 436790895
+1670385199.978 default: Sat Latitude: -6.005977, Longitude: 83.516590, Altitude: 500.259318 km, Velocity: 7.613800 km/s
+1670385199.978 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385201.978 default: AZEL CMD locked.
+1670385201.978 default: AZ: 250.026194, EL: 0.616212, RX: 436810104 TX: 436790895
+1670385201.978 default: Sat Latitude: -5.975566, Longitude: 83.632097, Altitude: 500.258233 km, Velocity: 7.613800 km/s
+1670385201.978 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385203.979 default: AZEL CMD locked.
+1670385203.979 default: AZ: 250.001042, EL: 0.738262, RX: 436810103 TX: 436790896
+1670385203.979 default: Sat Latitude: -5.945127, Longitude: 83.747587, Altitude: 500.257122 km, Velocity: 7.613799 km/s
+1670385203.979 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385205.979 default: AZEL CMD locked.
+1670385205.979 default: AZ: 249.975631, EL: 0.860974, RX: 436810103 TX: 436790896
+1670385205.979 default: Sat Latitude: -5.914661, Longitude: 83.863065, Altitude: 500.255987 km, Velocity: 7.613799 km/s
+1670385205.979 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385207.979 default: AZEL CMD locked.
+1670385207.979 default: AZ: 249.949959, EL: 0.984361, RX: 436810102 TX: 436790897
+1670385207.979 default: Sat Latitude: -5.884168, Longitude: 83.978528, Altitude: 500.254826 km, Velocity: 7.613799 km/s
+1670385207.979 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385209.980 default: AZEL CMD locked.
+1670385209.980 default: AZ: 249.924018, EL: 1.108436, RX: 436810102 TX: 436790897
+1670385209.980 default: Sat Latitude: -5.853646, Longitude: 84.093981, Altitude: 500.253640 km, Velocity: 7.613799 km/s
+1670385209.980 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385211.980 default: AZEL CMD locked.
+1670385211.980 default: AZ: 249.897806, EL: 1.233204, RX: 436810101 TX: 436790898
+1670385211.980 default: Sat Latitude: -5.823098, Longitude: 84.209417, Altitude: 500.252428 km, Velocity: 7.613799 km/s
+1670385211.980 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385213.980 default: AZEL CMD locked.
+1670385213.980 default: AZ: 249.871317, EL: 1.358679, RX: 436810100 TX: 436790899
+1670385213.980 default: Sat Latitude: -5.792523, Longitude: 84.324841, Altitude: 500.251192 km, Velocity: 7.613799 km/s
+1670385213.980 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385215.981 default: AZEL CMD locked.
+1670385215.981 default: AZ: 249.844547, EL: 1.484873, RX: 436810099 TX: 436790900
+1670385215.981 default: Sat Latitude: -5.761920, Longitude: 84.440251, Altitude: 500.249931 km, Velocity: 7.613799 km/s
+1670385215.981 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385217.981 default: AZEL CMD locked.
+1670385217.981 default: AZ: 249.817489, EL: 1.611800, RX: 436810098 TX: 436790901
+1670385217.981 default: Sat Latitude: -5.731291, Longitude: 84.555650, Altitude: 500.248644 km, Velocity: 7.613799 km/s
+1670385217.981 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385219.981 default: AZEL CMD locked.
+1670385219.981 default: AZ: 249.790141, EL: 1.739467, RX: 436810098 TX: 436790901
+1670385219.981 default: Sat Latitude: -5.700635, Longitude: 84.671034, Altitude: 500.247332 km, Velocity: 7.613799 km/s
+1670385219.981 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385221.982 default: AZEL CMD locked.
+1670385221.982 default: AZ: 249.762496, EL: 1.867888, RX: 436810097 TX: 436790902
+1670385221.982 default: Sat Latitude: -5.669953, Longitude: 84.786404, Altitude: 500.245996 km, Velocity: 7.613799 km/s
+1670385221.982 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385223.982 default: AZEL CMD locked.
+1670385223.982 default: AZ: 249.734549, EL: 1.997079, RX: 436810095 TX: 436790904
+1670385223.982 default: Sat Latitude: -5.639243, Longitude: 84.901764, Altitude: 500.244634 km, Velocity: 7.613799 km/s
+1670385223.982 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385225.982 default: AZEL CMD locked.
+1670385225.982 default: AZ: 249.706295, EL: 2.127048, RX: 436810094 TX: 436790905
+1670385225.982 default: Sat Latitude: -5.608508, Longitude: 85.017109, Altitude: 500.243248 km, Velocity: 7.613800 km/s
+1670385225.982 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385227.983 default: AZEL CMD locked.
+1670385227.983 default: AZ: 249.677727, EL: 2.257809, RX: 436810093 TX: 436790906
+1670385227.983 default: Sat Latitude: -5.577747, Longitude: 85.132441, Altitude: 500.241837 km, Velocity: 7.613800 km/s
+1670385227.983 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385229.983 default: AZEL CMD locked.
+1670385229.983 default: AZ: 249.648841, EL: 2.389376, RX: 436810092 TX: 436790907
+1670385229.983 default: Sat Latitude: -5.546961, Longitude: 85.247760, Altitude: 500.240401 km, Velocity: 7.613800 km/s
+1670385229.983 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385231.983 default: AZEL CMD locked.
+1670385231.983 default: AZ: 249.619630, EL: 2.521766, RX: 436810091 TX: 436790908
+1670385231.983 default: Sat Latitude: -5.516147, Longitude: 85.363068, Altitude: 500.238940 km, Velocity: 7.613800 km/s
+1670385231.983 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385233.984 default: AZEL CMD locked.
+1670385233.984 default: AZ: 249.590088, EL: 2.654987, RX: 436810089 TX: 436790910
+1670385233.984 default: Sat Latitude: -5.485309, Longitude: 85.478362, Altitude: 500.237454 km, Velocity: 7.613801 km/s
+1670385233.984 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385235.984 default: AZEL CMD locked.
+1670385235.984 default: AZ: 249.560210, EL: 2.789056, RX: 436810088 TX: 436790911
+1670385235.984 default: Sat Latitude: -5.454445, Longitude: 85.593642, Altitude: 500.235944 km, Velocity: 7.613801 km/s
+1670385235.984 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385237.984 default: AZEL CMD locked.
+1670385237.984 default: AZ: 249.529990, EL: 2.923988, RX: 436810086 TX: 436790913
+1670385237.984 default: Sat Latitude: -5.423556, Longitude: 85.708910, Altitude: 500.234409 km, Velocity: 7.613801 km/s
+1670385237.984 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385239.985 default: AZEL CMD locked.
+1670385239.985 default: AZ: 249.499419, EL: 3.059800, RX: 436810085 TX: 436790914
+1670385239.985 default: Sat Latitude: -5.392641, Longitude: 85.824168, Altitude: 500.232849 km, Velocity: 7.613802 km/s
+1670385239.985 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385241.985 default: AZEL CMD locked.
+1670385241.985 default: AZ: 249.468492, EL: 3.196501, RX: 436810083 TX: 436790916
+1670385241.985 default: Sat Latitude: -5.361701, Longitude: 85.939412, Altitude: 500.231264 km, Velocity: 7.613802 km/s
+1670385241.985 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385243.985 default: AZEL CMD locked.
+1670385243.985 default: AZ: 249.437203, EL: 3.334111, RX: 436810081 TX: 436790918
+1670385243.985 default: Sat Latitude: -5.330737, Longitude: 86.054642, Altitude: 500.229655 km, Velocity: 7.613803 km/s
+1670385243.985 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385245.986 default: AZEL CMD locked.
+1670385245.986 default: AZ: 249.405545, EL: 3.472645, RX: 436810080 TX: 436790919
+1670385245.986 default: Sat Latitude: -5.299748, Longitude: 86.169861, Altitude: 500.228022 km, Velocity: 7.613803 km/s
+1670385245.986 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385247.986 default: AZEL CMD locked.
+1670385247.986 default: AZ: 249.373509, EL: 3.612123, RX: 436810078 TX: 436790921
+1670385247.986 default: Sat Latitude: -5.268734, Longitude: 86.285069, Altitude: 500.226364 km, Velocity: 7.613804 km/s
+1670385247.986 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385249.986 default: AZEL CMD locked.
+1670385249.986 default: AZ: 249.341089, EL: 3.752554, RX: 436810076 TX: 436790923
+1670385249.986 default: Sat Latitude: -5.237695, Longitude: 86.400263, Altitude: 500.224681 km, Velocity: 7.613804 km/s
+1670385249.986 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385251.987 default: AZEL CMD locked.
+1670385251.987 default: AZ: 249.308278, EL: 3.893960, RX: 436810074 TX: 436790925
+1670385251.987 default: Sat Latitude: -5.206633, Longitude: 86.515445, Altitude: 500.222974 km, Velocity: 7.613805 km/s
+1670385251.987 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385253.987 default: AZEL CMD locked.
+1670385253.987 default: AZ: 249.275067, EL: 4.036360, RX: 436810072 TX: 436790927
+1670385253.987 default: Sat Latitude: -5.175546, Longitude: 86.630617, Altitude: 500.221242 km, Velocity: 7.613806 km/s
+1670385253.987 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385255.987 default: AZEL CMD locked.
+1670385255.987 default: AZ: 249.241445, EL: 4.179784, RX: 436810070 TX: 436790929
+1670385255.987 default: Sat Latitude: -5.144431, Longitude: 86.745789, Altitude: 500.219486 km, Velocity: 7.613806 km/s
+1670385255.987 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385257.988 default: AZEL CMD locked.
+1670385257.988 default: AZ: 249.207418, EL: 4.324201, RX: 436810067 TX: 436790932
+1670385257.988 default: Sat Latitude: -5.113300, Longitude: 86.860921, Altitude: 500.217706 km, Velocity: 7.613807 km/s
+1670385257.988 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385259.988 default: AZEL CMD locked.
+1670385259.988 default: AZ: 249.172962, EL: 4.469682, RX: 436810065 TX: 436790934
+1670385259.988 default: Sat Latitude: -5.082142, Longitude: 86.976055, Altitude: 500.215902 km, Velocity: 7.613808 km/s
+1670385259.988 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385261.988 default: AZEL CMD locked.
+1670385261.988 default: AZ: 249.138074, EL: 4.616231, RX: 436810063 TX: 436790936
+1670385261.988 default: Sat Latitude: -5.050959, Longitude: 87.091179, Altitude: 500.214073 km, Velocity: 7.613808 km/s
+1670385261.988 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385263.989 default: AZEL CMD locked.
+1670385263.989 default: AZ: 249.102746, EL: 4.763862, RX: 436810060 TX: 436790939
+1670385263.989 default: Sat Latitude: -5.019754, Longitude: 87.206289, Altitude: 500.212220 km, Velocity: 7.613809 km/s
+1670385263.989 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385265.989 default: AZEL CMD locked.
+1670385265.989 default: AZ: 249.066968, EL: 4.912599, RX: 436810058 TX: 436790941
+1670385265.989 default: Sat Latitude: -4.988525, Longitude: 87.321388, Altitude: 500.210343 km, Velocity: 7.613810 km/s
+1670385265.989 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385267.989 default: AZEL CMD locked.
+1670385267.989 default: AZ: 249.030732, EL: 5.062461, RX: 436810055 TX: 436790944
+1670385267.989 default: Sat Latitude: -4.957274, Longitude: 87.436475, Altitude: 500.208441 km, Velocity: 7.613811 km/s
+1670385267.989 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385269.990 default: AZEL CMD locked.
+1670385269.990 default: AZ: 248.994027, EL: 5.213473, RX: 436810052 TX: 436790947
+1670385269.990 default: Sat Latitude: -4.925998, Longitude: 87.551553, Altitude: 500.206516 km, Velocity: 7.613812 km/s
+1670385269.990 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385271.990 default: AZEL CMD locked.
+1670385271.990 default: AZ: 248.956845, EL: 5.365650, RX: 436810049 TX: 436790950
+1670385271.990 default: Sat Latitude: -4.894700, Longitude: 87.666617, Altitude: 500.204566 km, Velocity: 7.613813 km/s
+1670385271.990 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385273.990 default: AZEL CMD locked.
+1670385273.990 default: AZ: 248.919175, EL: 5.519018, RX: 436810046 TX: 436790953
+1670385273.990 default: Sat Latitude: -4.863380, Longitude: 87.781670, Altitude: 500.202592 km, Velocity: 7.613814 km/s
+1670385273.990 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385275.991 default: AZEL CMD locked.
+1670385275.991 default: AZ: 248.881006, EL: 5.673602, RX: 436810043 TX: 436790956
+1670385275.991 default: Sat Latitude: -4.832037, Longitude: 87.896713, Altitude: 500.200594 km, Velocity: 7.613815 km/s
+1670385275.991 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385277.991 default: AZEL CMD locked.
+1670385277.991 default: AZ: 248.842329, EL: 5.829420, RX: 436810040 TX: 436790959
+1670385277.991 default: Sat Latitude: -4.800671, Longitude: 88.011743, Altitude: 500.198572 km, Velocity: 7.613816 km/s
+1670385277.991 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385279.992 default: AZEL CMD locked.
+1670385279.992 default: AZ: 248.803133, EL: 5.986497, RX: 436810037 TX: 436790962
+1670385279.992 default: Sat Latitude: -4.769284, Longitude: 88.126762, Altitude: 500.196526 km, Velocity: 7.613817 km/s
+1670385279.992 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385281.992 default: AZEL CMD locked.
+1670385281.992 default: AZ: 248.763406, EL: 6.144859, RX: 436810033 TX: 436790966
+1670385281.992 default: Sat Latitude: -4.737874, Longitude: 88.241770, Altitude: 500.194457 km, Velocity: 7.613818 km/s
+1670385281.992 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385283.992 default: AZEL CMD locked.
+1670385283.992 default: AZ: 248.723137, EL: 6.304534, RX: 436810030 TX: 436790969
+1670385283.992 default: Sat Latitude: -4.706442, Longitude: 88.356769, Altitude: 500.192363 km, Velocity: 7.613819 km/s
+1670385283.992 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385285.992 default: AZEL CMD locked.
+1670385285.992 default: AZ: 248.682315, EL: 6.465540, RX: 436810026 TX: 436790973
+1670385285.993 default: Sat Latitude: -4.674988, Longitude: 88.471755, Altitude: 500.190245 km, Velocity: 7.613820 km/s
+1670385285.993 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385287.993 default: AZEL CMD locked.
+1670385287.993 default: AZ: 248.640926, EL: 6.627908, RX: 436810023 TX: 436790976
+1670385287.993 default: Sat Latitude: -4.643513, Longitude: 88.586729, Altitude: 500.188104 km, Velocity: 7.613822 km/s
+1670385287.993 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385289.993 default: AZEL CMD locked.
+1670385289.993 default: AZ: 248.598960, EL: 6.791665, RX: 436810019 TX: 436790980
+1670385289.993 default: Sat Latitude: -4.612016, Longitude: 88.701693, Altitude: 500.185939 km, Velocity: 7.613823 km/s
+1670385289.993 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385291.993 default: AZEL CMD locked.
+1670385291.993 default: AZ: 248.556401, EL: 6.956840, RX: 436810015 TX: 436790984
+1670385291.994 default: Sat Latitude: -4.580498, Longitude: 88.816648, Altitude: 500.183750 km, Velocity: 7.613824 km/s
+1670385291.994 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385293.994 default: AZEL CMD locked.
+1670385293.994 default: AZ: 248.513239, EL: 7.123457, RX: 436810011 TX: 436790988
+1670385293.994 default: Sat Latitude: -4.548959, Longitude: 88.931591, Altitude: 500.181537 km, Velocity: 7.613825 km/s
+1670385293.994 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385295.994 default: AZEL CMD locked.
+1670385295.994 default: AZ: 248.469459, EL: 7.291547, RX: 436810007 TX: 436790992
+1670385295.994 default: Sat Latitude: -4.517398, Longitude: 89.046522, Altitude: 500.179301 km, Velocity: 7.613827 km/s
+1670385295.994 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385297.994 default: AZEL CMD locked.
+1670385297.995 default: AZ: 248.425047, EL: 7.461140, RX: 436810002 TX: 436790997
+1670385297.995 default: Sat Latitude: -4.485817, Longitude: 89.161443, Altitude: 500.177041 km, Velocity: 7.613828 km/s
+1670385297.995 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385299.995 default: AZEL CMD locked.
+1670385299.995 default: AZ: 248.379987, EL: 7.632270, RX: 436809998 TX: 436791001
+1670385299.995 default: Sat Latitude: -4.454214, Longitude: 89.276356, Altitude: 500.174757 km, Velocity: 7.613830 km/s
+1670385299.995 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385301.995 default: AZEL CMD locked.
+1670385301.995 default: AZ: 248.334268, EL: 7.804962, RX: 436809993 TX: 436791006
+1670385301.995 default: Sat Latitude: -4.422592, Longitude: 89.391256, Altitude: 500.172450 km, Velocity: 7.613831 km/s
+1670385301.995 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385303.995 default: AZEL CMD locked.
+1670385303.995 default: AZ: 248.287871, EL: 7.979252, RX: 436809988 TX: 436791011
+1670385303.996 default: Sat Latitude: -4.390948, Longitude: 89.506146, Altitude: 500.170119 km, Velocity: 7.613833 km/s
+1670385303.996 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385305.996 default: AZEL CMD locked.
+1670385305.996 default: AZ: 248.240781, EL: 8.155176, RX: 436809984 TX: 436791015
+1670385305.996 default: Sat Latitude: -4.359284, Longitude: 89.621028, Altitude: 500.167764 km, Velocity: 7.613834 km/s
+1670385305.996 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385307.996 default: AZEL CMD locked.
+1670385307.996 default: AZ: 248.192984, EL: 8.332762, RX: 436809979 TX: 436791020
+1670385307.996 default: Sat Latitude: -4.327601, Longitude: 89.735897, Altitude: 500.165386 km, Velocity: 7.613836 km/s
+1670385307.996 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385309.997 default: AZEL CMD locked.
+1670385309.997 default: AZ: 248.144461, EL: 8.512047, RX: 436809973 TX: 436791026
+1670385309.997 default: Sat Latitude: -4.295897, Longitude: 89.850756, Altitude: 500.162985 km, Velocity: 7.613837 km/s
+1670385309.997 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385311.997 default: AZEL CMD locked.
+1670385311.997 default: AZ: 248.095195, EL: 8.693067, RX: 436809968 TX: 436791031
+1670385311.997 default: Sat Latitude: -4.264173, Longitude: 89.965605, Altitude: 500.160560 km, Velocity: 7.613839 km/s
+1670385311.997 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385313.997 default: AZEL CMD locked.
+1670385313.998 default: AZ: 248.045168, EL: 8.875864, RX: 436809963 TX: 436791036
+1670385313.998 default: Sat Latitude: -4.232429, Longitude: 90.080446, Altitude: 500.158112 km, Velocity: 7.613840 km/s
+1670385313.998 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385315.998 default: AZEL CMD locked.
+1670385315.998 default: AZ: 247.994362, EL: 9.060467, RX: 436809957 TX: 436791042
+1670385315.998 default: Sat Latitude: -4.200667, Longitude: 90.195275, Altitude: 500.155641 km, Velocity: 7.613842 km/s
+1670385315.998 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385317.998 default: AZEL CMD locked.
+1670385317.998 default: AZ: 247.942758, EL: 9.246919, RX: 436809951 TX: 436791048
+1670385317.998 default: Sat Latitude: -4.168884, Longitude: 90.310094, Altitude: 500.153146 km, Velocity: 7.613844 km/s
+1670385317.998 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385319.998 default: AZEL CMD locked.
+1670385319.998 default: AZ: 247.890337, EL: 9.435260, RX: 436809945 TX: 436791054
+1670385319.998 default: Sat Latitude: -4.137082, Longitude: 90.424904, Altitude: 500.150628 km, Velocity: 7.613846 km/s
+1670385319.998 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385321.999 default: AZEL CMD locked.
+1670385321.999 default: AZ: 247.837076, EL: 9.625535, RX: 436809939 TX: 436791060
+1670385321.999 default: Sat Latitude: -4.105261, Longitude: 90.539705, Altitude: 500.148086 km, Velocity: 7.613847 km/s
+1670385321.999 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385323.999 default: AZEL CMD locked.
+1670385323.999 default: AZ: 247.782957, EL: 9.817779, RX: 436809933 TX: 436791066
+1670385323.999 default: Sat Latitude: -4.073421, Longitude: 90.654495, Altitude: 500.145522 km, Velocity: 7.613849 km/s
+1670385323.999 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385325.999 default: AZEL CMD locked.
+1670385325.999 default: AZ: 247.727957, EL: 10.012039, RX: 436809926 TX: 436791073
+1670385325.999 default: Sat Latitude: -4.041563, Longitude: 90.769275, Altitude: 500.142934 km, Velocity: 7.613851 km/s
+1670385328.025 default: AZEL CMD locked.
+1670385328.025 default: AZ: 247.643755, EL: 10.307310, RX: 436809916 TX: 436791083
+1670385328.025 default: Sat Latitude: -3.993739, Longitude: 90.941430, Altitude: 500.139009 km, Velocity: 7.613854 km/s
+1670385330.057 default: AZEL CMD locked.
+1670385330.057 default: AZ: 247.586453, EL: 10.506808, RX: 436809909 TX: 436791090
+1670385330.057 default: Sat Latitude: -3.961834, Longitude: 91.056187, Altitude: 500.136363 km, Velocity: 7.613856 km/s
+1670385332.089 default: AZEL CMD locked.
+1670385332.089 default: AZ: 247.528189, EL: 10.708483, RX: 436809902 TX: 436791097
+1670385332.089 default: Sat Latitude: -3.929910, Longitude: 91.170934, Altitude: 500.133694 km, Velocity: 7.613858 km/s
+1670385334.120 default: AZEL CMD locked.
+1670385334.120 default: AZ: 247.468937, EL: 10.912385, RX: 436809894 TX: 436791105
+1670385334.120 default: Sat Latitude: -3.897969, Longitude: 91.285672, Altitude: 500.131003 km, Velocity: 7.613860 km/s
+1670385336.152 default: AZEL CMD locked.
+1670385336.152 default: AZ: 247.408669, EL: 11.118568, RX: 436809886 TX: 436791113
+1670385336.152 default: Sat Latitude: -3.866008, Longitude: 91.400403, Altitude: 500.128288 km, Velocity: 7.613862 km/s
+1670385338.184 default: AZEL CMD locked.
+1670385338.184 default: AZ: 247.347362, EL: 11.327078, RX: 436809879 TX: 436791120
+1670385338.184 default: Sat Latitude: -3.834031, Longitude: 91.515123, Altitude: 500.125550 km, Velocity: 7.613864 km/s
+1670385340.215 default: AZEL CMD locked.
+1670385340.215 default: AZ: 247.284985, EL: 11.537971, RX: 436809870 TX: 436791129
+1670385340.215 default: Sat Latitude: -3.802036, Longitude: 91.629833, Altitude: 500.122789 km, Velocity: 7.613866 km/s
+1670385342.247 default: AZEL CMD locked.
+1670385342.247 default: AZ: 247.221510, EL: 11.751307, RX: 436809862 TX: 436791137
+1670385342.247 default: Sat Latitude: -3.770022, Longitude: 91.744537, Altitude: 500.120006 km, Velocity: 7.613868 km/s
+1670385344.279 default: AZEL CMD locked.
+1670385344.279 default: AZ: 247.156907, EL: 11.967134, RX: 436809853 TX: 436791146
+1670385344.279 default: Sat Latitude: -3.737992, Longitude: 91.859230, Altitude: 500.117199 km, Velocity: 7.613870 km/s
+1670385346.311 default: AZEL CMD locked.
+1670385346.311 default: AZ: 247.091145, EL: 12.185515, RX: 436809844 TX: 436791155
+1670385346.311 default: Sat Latitude: -3.705944, Longitude: 91.973914, Altitude: 500.114370 km, Velocity: 7.613872 km/s
+1670385348.342 default: AZEL CMD locked.
+1670385348.342 default: AZ: 247.024192, EL: 12.406511, RX: 436809835 TX: 436791164
+1670385348.342 default: Sat Latitude: -3.673880, Longitude: 92.088589, Altitude: 500.111518 km, Velocity: 7.613875 km/s
+1670385350.374 default: AZEL CMD locked.
+1670385350.374 default: AZ: 246.956013, EL: 12.630187, RX: 436809826 TX: 436791173
+1670385350.374 default: Sat Latitude: -3.641797, Longitude: 92.203257, Altitude: 500.108643 km, Velocity: 7.613877 km/s
+1670385352.406 default: AZEL CMD locked.
+1670385352.406 default: AZ: 246.886575, EL: 12.856600, RX: 436809816 TX: 436791183
+1670385352.406 default: Sat Latitude: -3.609699, Longitude: 92.317915, Altitude: 500.105745 km, Velocity: 7.613879 km/s
+1670385354.437 default: AZEL CMD locked.
+1670385354.438 default: AZ: 246.815842, EL: 13.085819, RX: 436809806 TX: 436791193
+1670385354.438 default: Sat Latitude: -3.577584, Longitude: 92.432565, Altitude: 500.102825 km, Velocity: 7.613881 km/s
+1670385356.469 default: AZEL CMD locked.
+1670385356.469 default: AZ: 246.743775, EL: 13.317912, RX: 436809796 TX: 436791203
+1670385356.469 default: Sat Latitude: -3.545452, Longitude: 92.547205, Altitude: 500.099882 km, Velocity: 7.613884 km/s
+1670385358.501 default: AZEL CMD locked.
+1670385358.501 default: AZ: 246.670335, EL: 13.552954, RX: 436809785 TX: 436791214
+1670385358.501 default: Sat Latitude: -3.513303, Longitude: 92.661840, Altitude: 500.096916 km, Velocity: 7.613886 km/s
+1670385360.532 default: AZEL CMD locked.
+1670385360.532 default: AZ: 246.595484, EL: 13.791007, RX: 436809774 TX: 436791225
+1670385360.533 default: Sat Latitude: -3.481139, Longitude: 92.776464, Altitude: 500.093928 km, Velocity: 7.613889 km/s
+1670385362.564 default: AZEL CMD locked.
+1670385362.564 default: AZ: 246.519179, EL: 14.032150, RX: 436809763 TX: 436791236
+1670385362.564 default: Sat Latitude: -3.448958, Longitude: 92.891080, Altitude: 500.090917 km, Velocity: 7.613891 km/s
+1670385364.596 default: AZEL CMD locked.
+1670385364.596 default: AZ: 246.441374, EL: 14.276466, RX: 436809752 TX: 436791247
+1670385364.596 default: Sat Latitude: -3.416761, Longitude: 93.005690, Altitude: 500.087884 km, Velocity: 7.613894 km/s
+1670385366.628 default: AZEL CMD locked.
+1670385366.628 default: AZ: 246.362028, EL: 14.524022, RX: 436809740 TX: 436791259
+1670385366.628 default: Sat Latitude: -3.384549, Longitude: 93.120290, Altitude: 500.084828 km, Velocity: 7.613896 km/s
+1670385368.659 default: AZEL CMD locked.
+1670385368.659 default: AZ: 246.281091, EL: 14.774906, RX: 436809727 TX: 436791272
+1670385368.659 default: Sat Latitude: -3.352321, Longitude: 93.234881, Altitude: 500.081750 km, Velocity: 7.613899 km/s
+1670385370.691 default: AZEL CMD locked.
+1670385370.691 default: AZ: 246.198514, EL: 15.029200, RX: 436809715 TX: 436791284
+1670385370.691 default: Sat Latitude: -3.320078, Longitude: 93.349465, Altitude: 500.078649 km, Velocity: 7.613901 km/s
+1670385372.723 default: AZEL CMD locked.
+1670385372.723 default: AZ: 246.114245, EL: 15.286998, RX: 436809702 TX: 436791297
+1670385372.723 default: Sat Latitude: -3.287819, Longitude: 93.464043, Altitude: 500.075526 km, Velocity: 7.613904 km/s
+1670385374.755 default: AZEL CMD locked.
+1670385374.755 default: AZ: 246.028233, EL: 15.548377, RX: 436809688 TX: 436791311
+1670385374.755 default: Sat Latitude: -3.255545, Longitude: 93.578611, Altitude: 500.072380 km, Velocity: 7.613906 km/s
+1670385376.786 default: AZEL CMD locked.
+1670385376.786 default: AZ: 245.940422, EL: 15.813435, RX: 436809674 TX: 436791325
+1670385376.786 default: Sat Latitude: -3.223256, Longitude: 93.693171, Altitude: 500.069212 km, Velocity: 7.613909 km/s
+1670385378.818 default: AZEL CMD locked.
+1670385378.818 default: AZ: 245.850753, EL: 16.082267, RX: 436809660 TX: 436791339
+1670385378.818 default: Sat Latitude: -3.190952, Longitude: 93.807724, Altitude: 500.066022 km, Velocity: 7.613912 km/s
+1670385380.850 default: AZEL CMD locked.
+1670385380.850 default: AZ: 245.759164, EL: 16.354977, RX: 436809645 TX: 436791354
+1670385380.850 default: Sat Latitude: -3.158633, Longitude: 93.922271, Altitude: 500.062810 km, Velocity: 7.613915 km/s
+1670385382.881 default: AZEL CMD locked.
+1670385382.881 default: AZ: 245.665597, EL: 16.631654, RX: 436809630 TX: 436791369
+1670385382.881 default: Sat Latitude: -3.126300, Longitude: 94.036808, Altitude: 500.059575 km, Velocity: 7.613917 km/s
+1670385384.913 default: AZEL CMD locked.
+1670385384.913 default: AZ: 245.569982, EL: 16.912408, RX: 436809615 TX: 436791384
+1670385384.913 default: Sat Latitude: -3.093953, Longitude: 94.151339, Altitude: 500.056318 km, Velocity: 7.613920 km/s
+1670385386.945 default: AZEL CMD locked.
+1670385386.945 default: AZ: 245.472253, EL: 17.197347, RX: 436809598 TX: 436791401
+1670385386.945 default: Sat Latitude: -3.061591, Longitude: 94.265861, Altitude: 500.053039 km, Velocity: 7.613923 km/s
+1670385388.977 default: AZEL CMD locked.
+1670385388.977 default: AZ: 245.372334, EL: 17.486587, RX: 436809582 TX: 436791417
+1670385388.977 default: Sat Latitude: -3.029214, Longitude: 94.380379, Altitude: 500.049737 km, Velocity: 7.613926 km/s
+1670385391.008 default: AZEL CMD locked.
+1670385391.008 default: AZ: 245.218192, EL: 17.928746, RX: 436809556 TX: 436791443
+1670385391.008 default: Sat Latitude: -2.980624, Longitude: 94.552139, Altitude: 500.044744 km, Velocity: 7.613930 km/s
+1670385393.040 default: AZEL CMD locked.
+1670385393.040 default: AZ: 245.112472, EL: 18.229230, RX: 436809538 TX: 436791461
+1670385393.040 default: Sat Latitude: -2.948214, Longitude: 94.666637, Altitude: 500.041387 km, Velocity: 7.613933 km/s
+1670385395.072 default: AZEL CMD locked.
+1670385395.072 default: AZ: 245.004284, EL: 18.534434, RX: 436809519 TX: 436791480
+1670385395.072 default: Sat Latitude: -2.915789, Longitude: 94.781130, Altitude: 500.038009 km, Velocity: 7.613936 km/s
+1670385397.103 default: AZEL CMD locked.
+1670385397.103 default: AZ: 244.893546, EL: 18.844473, RX: 436809500 TX: 436791499
+1670385397.103 default: Sat Latitude: -2.883351, Longitude: 94.895614, Altitude: 500.034608 km, Velocity: 7.613939 km/s
+1670385399.135 default: AZEL CMD locked.
+1670385399.135 default: AZ: 244.780162, EL: 19.159486, RX: 436809480 TX: 436791519
+1670385399.135 default: Sat Latitude: -2.850900, Longitude: 95.010091, Altitude: 500.031186 km, Velocity: 7.613942 km/s
+1670385401.167 default: AZEL CMD locked.
+1670385401.167 default: AZ: 244.664034, EL: 19.479616, RX: 436809459 TX: 436791540
+1670385401.167 default: Sat Latitude: -2.818435, Longitude: 95.124563, Altitude: 500.027741 km, Velocity: 7.613945 km/s
+1670385403.198 default: AZEL CMD locked.
+1670385403.199 default: AZ: 244.545065, EL: 19.804991, RX: 436809438 TX: 436791561
+1670385403.199 default: Sat Latitude: -2.785958, Longitude: 95.239027, Altitude: 500.024275 km, Velocity: 7.613949 km/s
+1670385405.230 default: AZEL CMD locked.
+1670385405.230 default: AZ: 244.423148, EL: 20.135762, RX: 436809416 TX: 436791583
+1670385405.230 default: Sat Latitude: -2.753468, Longitude: 95.353483, Altitude: 500.020786 km, Velocity: 7.613952 km/s
+1670385407.262 default: AZEL CMD locked.
+1670385407.262 default: AZ: 244.298169, EL: 20.472079, RX: 436809394 TX: 436791605
+1670385407.262 default: Sat Latitude: -2.720965, Longitude: 95.467934, Altitude: 500.017276 km, Velocity: 7.613955 km/s
+1670385409.294 default: AZEL CMD locked.
+1670385409.294 default: AZ: 244.170011, EL: 20.814105, RX: 436809370 TX: 436791629
+1670385409.294 default: Sat Latitude: -2.688449, Longitude: 95.582380, Altitude: 500.013744 km, Velocity: 7.613958 km/s
+1670385411.325 default: AZEL CMD locked.
+1670385411.325 default: AZ: 244.038553, EL: 21.161985, RX: 436809346 TX: 436791653
+1670385411.326 default: Sat Latitude: -2.655921, Longitude: 95.696818, Altitude: 500.010191 km, Velocity: 7.613961 km/s
+1670385413.357 default: AZEL CMD locked.
+1670385413.357 default: AZ: 243.903665, EL: 21.515892, RX: 436809321 TX: 436791678
+1670385413.357 default: Sat Latitude: -2.623381, Longitude: 95.811249, Altitude: 500.006615 km, Velocity: 7.613965 km/s
+1670385415.389 default: AZEL CMD locked.
+1670385415.389 default: AZ: 243.765210, EL: 21.875995, RX: 436809296 TX: 436791703
+1670385415.389 default: Sat Latitude: -2.590829, Longitude: 95.925674, Altitude: 500.003018 km, Velocity: 7.613968 km/s
+1670385417.421 default: AZEL CMD locked.
+1670385417.421 default: AZ: 243.623042, EL: 22.242477, RX: 436809269 TX: 436791730
+1670385417.421 default: Sat Latitude: -2.558265, Longitude: 96.040095, Altitude: 499.999399 km, Velocity: 7.613971 km/s
+1670385419.452 default: AZEL CMD locked.
+1670385419.452 default: AZ: 243.477015, EL: 22.615505, RX: 436809241 TX: 436791758
+1670385419.452 default: Sat Latitude: -2.525689, Longitude: 96.154508, Altitude: 499.995759 km, Velocity: 7.613975 km/s
+1670385421.484 default: AZEL CMD locked.
+1670385421.484 default: AZ: 243.326967, EL: 22.995274, RX: 436809213 TX: 436791786
+1670385421.484 default: Sat Latitude: -2.493101, Longitude: 96.268914, Altitude: 499.992096 km, Velocity: 7.613978 km/s
+1670385423.516 default: AZEL CMD locked.
+1670385423.516 default: AZ: 243.172730, EL: 23.381975, RX: 436809183 TX: 436791816
+1670385423.516 default: Sat Latitude: -2.460502, Longitude: 96.383315, Altitude: 499.988413 km, Velocity: 7.613981 km/s
+1670385425.547 default: AZEL CMD locked.
+1670385425.547 default: AZ: 243.014123, EL: 23.775815, RX: 436809153 TX: 436791846
+1670385425.547 default: Sat Latitude: -2.427891, Longitude: 96.497713, Altitude: 499.984707 km, Velocity: 7.613985 km/s
+1670385427.579 default: AZEL CMD locked.
+1670385427.579 default: AZ: 242.850964, EL: 24.176982, RX: 436809121 TX: 436791878
+1670385427.579 default: Sat Latitude: -2.395269, Longitude: 96.612102, Altitude: 499.980980 km, Velocity: 7.613988 km/s
+1670385429.611 default: AZEL CMD locked.
+1670385429.611 default: AZ: 242.683052, EL: 24.585696, RX: 436809088 TX: 436791911
+1670385429.611 default: Sat Latitude: -2.362637, Longitude: 96.726486, Altitude: 499.977232 km, Velocity: 7.613992 km/s
+1670385431.643 default: AZEL CMD locked.
+1670385431.643 default: AZ: 242.510173, EL: 25.002182, RX: 436809054 TX: 436791945
+1670385431.643 default: Sat Latitude: -2.329992, Longitude: 96.840866, Altitude: 499.973462 km, Velocity: 7.613996 km/s
+1670385433.674 default: AZEL CMD locked.
+1670385433.674 default: AZ: 242.332113, EL: 25.426647, RX: 436809019 TX: 436791980
+1670385433.674 default: Sat Latitude: -2.297338, Longitude: 96.955238, Altitude: 499.969671 km, Velocity: 7.613999 km/s
+1670385435.706 default: AZEL CMD locked.
+1670385435.706 default: AZ: 242.148632, EL: 25.859327, RX: 436808983 TX: 436792016
+1670385435.706 default: Sat Latitude: -2.264673, Longitude: 97.069606, Altitude: 499.965858 km, Velocity: 7.614003 km/s
+1670385437.738 default: AZEL CMD locked.
+1670385437.738 default: AZ: 241.959480, EL: 26.300460, RX: 436808945 TX: 436792054
+1670385437.738 default: Sat Latitude: -2.231998, Longitude: 97.183967, Altitude: 499.962024 km, Velocity: 7.614006 km/s
+1670385439.770 default: AZEL CMD locked.
+1670385439.770 default: AZ: 241.764389, EL: 26.750297, RX: 436808906 TX: 436792093
+1670385439.770 default: Sat Latitude: -2.199311, Longitude: 97.298326, Altitude: 499.958169 km, Velocity: 7.614010 km/s
+1670385441.801 default: AZEL CMD locked.
+1670385441.801 default: AZ: 241.563085, EL: 27.209070, RX: 436808865 TX: 436792134
+1670385441.801 default: Sat Latitude: -2.166615, Longitude: 97.412677, Altitude: 499.954292 km, Velocity: 7.614014 km/s
+1670385443.833 default: AZEL CMD locked.
+1670385443.833 default: AZ: 241.355264, EL: 27.677042, RX: 436808823 TX: 436792176
+1670385443.833 default: Sat Latitude: -2.133910, Longitude: 97.527023, Altitude: 499.950394 km, Velocity: 7.614018 km/s
+1670385445.865 default: AZEL CMD locked.
+1670385445.865 default: AZ: 241.140608, EL: 28.154476, RX: 436808780 TX: 436792219
+1670385445.865 default: Sat Latitude: -2.101194, Longitude: 97.641364, Altitude: 499.946475 km, Velocity: 7.614021 km/s
+1670385447.896 default: AZEL CMD locked.
+1670385447.896 default: AZ: 240.918773, EL: 28.641650, RX: 436808734 TX: 436792265
+1670385447.896 default: Sat Latitude: -2.068468, Longitude: 97.755703, Altitude: 499.942534 km, Velocity: 7.614025 km/s
+1670385449.928 default: AZEL CMD locked.
+1670385449.928 default: AZ: 240.689407, EL: 29.138818, RX: 436808687 TX: 436792312
+1670385449.928 default: Sat Latitude: -2.035733, Longitude: 97.870034, Altitude: 499.938573 km, Velocity: 7.614029 km/s
+1670385451.960 default: AZEL CMD locked.
+1670385451.960 default: AZ: 240.452119, EL: 29.646270, RX: 436808639 TX: 436792360
+1670385451.960 default: Sat Latitude: -2.002988, Longitude: 97.984360, Altitude: 499.934590 km, Velocity: 7.614033 km/s
+1670385453.991 default: AZEL CMD locked.
+1670385453.991 default: AZ: 240.206493, EL: 30.164302, RX: 436808588 TX: 436792411
+1670385453.991 default: Sat Latitude: -1.970234, Longitude: 98.098684, Altitude: 499.930586 km, Velocity: 7.614037 km/s
+1670385456.023 default: AZEL CMD locked.
+1670385456.023 default: AZ: 239.821463, EL: 30.961791, RX: 436808509 TX: 436792490
+1670385456.023 default: Sat Latitude: -1.921087, Longitude: 98.270158, Altitude: 499.924540 km, Velocity: 7.614043 km/s
+1670385458.055 default: AZEL is not set (>30 deg ele)
+1670385458.055 default: AZ: 239.553013, EL: 31.507520, RX: 436808453 TX: 436792546
+1670385458.055 default: Sat Latitude: -1.888311, Longitude: 98.384468, Altitude: 499.920484 km, Velocity: 7.614047 km/s
+1670385460.087 default: AZEL is not set (>30 deg ele)
+1670385460.087 default: AZ: 239.274546, EL: 32.064856, RX: 436808395 TX: 436792604
+1670385460.087 default: Sat Latitude: -1.855526, Longitude: 98.498774, Altitude: 499.916406 km, Velocity: 7.614051 km/s
+1670385462.118 default: AZEL is not set (>30 deg ele)
+1670385462.118 default: AZ: 238.985498, EL: 32.634115, RX: 436808335 TX: 436792664
+1670385462.118 default: Sat Latitude: -1.822732, Longitude: 98.613077, Altitude: 499.912307 km, Velocity: 7.614055 km/s
+1670385464.150 default: AZEL is not set (>30 deg ele)
+1670385464.150 default: AZ: 238.685276, EL: 33.215581, RX: 436808273 TX: 436792726
+1670385464.150 default: Sat Latitude: -1.789930, Longitude: 98.727374, Altitude: 499.908188 km, Velocity: 7.614059 km/s
+1670385466.182 default: AZEL is not set (>30 deg ele)
+1670385466.182 default: AZ: 238.373228, EL: 33.809574, RX: 436808208 TX: 436792791
+1670385466.182 default: Sat Latitude: -1.757120, Longitude: 98.841667, Altitude: 499.904047 km, Velocity: 7.614063 km/s
+1670385468.213 default: AZEL is not set (>30 deg ele)
+1670385468.214 default: AZ: 238.048650, EL: 34.416414, RX: 436808141 TX: 436792858
+1670385468.214 default: Sat Latitude: -1.724301, Longitude: 98.955958, Altitude: 499.899886 km, Velocity: 7.614067 km/s
+1670385470.245 default: AZEL is not set (>30 deg ele)
+1670385470.245 default: AZ: 237.710804, EL: 35.036383, RX: 436808071 TX: 436792928
+1670385470.245 default: Sat Latitude: -1.691475, Longitude: 99.070243, Altitude: 499.895703 km, Velocity: 7.614071 km/s
+1670385472.277 default: AZEL is not set (>30 deg ele)
+1670385472.277 default: AZ: 237.358874, EL: 35.669797, RX: 436807999 TX: 436793000
+1670385472.277 default: Sat Latitude: -1.658641, Longitude: 99.184523, Altitude: 499.891500 km, Velocity: 7.614076 km/s
+1670385474.309 default: AZEL is not set (>30 deg ele)
+1670385474.309 default: AZ: 236.991984, EL: 36.316954, RX: 436807923 TX: 436793076
+1670385474.309 default: Sat Latitude: -1.625799, Longitude: 99.298800, Altitude: 499.887276 km, Velocity: 7.614080 km/s
+1670385476.341 default: AZEL is not set (>30 deg ele)
+1670385476.341 default: AZ: 236.609178, EL: 36.978159, RX: 436807844 TX: 436793155
+1670385476.341 default: Sat Latitude: -1.592949, Longitude: 99.413075, Altitude: 499.883031 km, Velocity: 7.614084 km/s
+1670385478.372 default: AZEL is not set (>30 deg ele)
+1670385478.372 default: AZ: 236.209448, EL: 37.653668, RX: 436807763 TX: 436793236
+1670385478.372 default: Sat Latitude: -1.560093, Longitude: 99.527344, Altitude: 499.878765 km, Velocity: 7.614088 km/s
+1670385480.404 default: AZEL is not set (>30 deg ele)
+1670385480.404 default: AZ: 235.791673, EL: 38.343762, RX: 436807678 TX: 436793321
+1670385480.404 default: Sat Latitude: -1.527229, Longitude: 99.641610, Altitude: 499.874479 km, Velocity: 7.614093 km/s
+1670385482.436 default: AZEL is not set (>30 deg ele)
+1670385482.436 default: AZ: 235.354647, EL: 39.048695, RX: 436807589 TX: 436793410
+1670385482.436 default: Sat Latitude: -1.494358, Longitude: 99.755872, Altitude: 499.870172 km, Velocity: 7.614097 km/s
+1670385484.467 default: AZEL is not set (>30 deg ele)
+1670385484.468 default: AZ: 234.897046, EL: 39.768715, RX: 436807498 TX: 436793501
+1670385484.468 default: Sat Latitude: -1.461480, Longitude: 99.870133, Altitude: 499.865844 km, Velocity: 7.614102 km/s
+1670385486.499 default: AZEL is not set (>30 deg ele)
+1670385486.499 default: AZ: 234.417460, EL: 40.504002, RX: 436807402 TX: 436793597
+1670385486.499 default: Sat Latitude: -1.428596, Longitude: 99.984388, Altitude: 499.861496 km, Velocity: 7.614106 km/s
+1670385488.531 default: AZEL is not set (>30 deg ele)
+1670385488.531 default: AZ: 233.914322, EL: 41.254753, RX: 436807303 TX: 436793696
+1670385488.531 default: Sat Latitude: -1.395704, Longitude: 100.098640, Altitude: 499.857127 km, Velocity: 7.614111 km/s
+1670385490.562 default: AZEL is not set (>30 deg ele)
+1670385490.562 default: AZ: 233.385932, EL: 42.021113, RX: 436807200 TX: 436793799
+1670385490.562 default: Sat Latitude: -1.362807, Longitude: 100.212888, Altitude: 499.852738 km, Velocity: 7.614115 km/s
+1670385492.594 default: AZEL is not set (>30 deg ele)
+1670385492.594 default: AZ: 232.830418, EL: 42.803205, RX: 436807092 TX: 436793907
+1670385492.594 default: Sat Latitude: -1.329903, Longitude: 100.327136, Altitude: 499.848327 km, Velocity: 7.614120 km/s
+1670385494.626 default: AZEL is not set (>30 deg ele)
+1670385494.626 default: AZ: 232.245767, EL: 43.601054, RX: 436806981 TX: 436794018
+1670385494.626 default: Sat Latitude: -1.296993, Longitude: 100.441378, Altitude: 499.843897 km, Velocity: 7.614124 km/s
+1670385496.658 default: AZEL is not set (>30 deg ele)
+1670385496.658 default: AZ: 231.629739, EL: 44.414680, RX: 436806865 TX: 436794134
+1670385496.658 default: Sat Latitude: -1.264077, Longitude: 100.555617, Altitude: 499.839446 km, Velocity: 7.614129 km/s
+1670385498.689 default: AZEL is not set (>30 deg ele)
+1670385498.689 default: AZ: 230.979871, EL: 45.244038, RX: 436806744 TX: 436794255
+1670385498.689 default: Sat Latitude: -1.231154, Longitude: 100.669856, Altitude: 499.834974 km, Velocity: 7.614133 km/s
+1670385500.721 default: AZEL is not set (>30 deg ele)
+1670385500.721 default: AZ: 230.293500, EL: 46.088956, RX: 436806619 TX: 436794380
+1670385500.721 default: Sat Latitude: -1.198227, Longitude: 100.784089, Altitude: 499.830482 km, Velocity: 7.614138 km/s
+1670385502.753 default: AZEL is not set (>30 deg ele)
+1670385502.753 default: AZ: 229.567651, EL: 46.949229, RX: 436806489 TX: 436794510
+1670385502.753 default: Sat Latitude: -1.165293, Longitude: 100.898320, Altitude: 499.825970 km, Velocity: 7.614143 km/s
+1670385504.784 default: AZEL is not set (>30 deg ele)
+1670385504.784 default: AZ: 228.799066, EL: 47.824535, RX: 436806354 TX: 436794645
+1670385504.785 default: Sat Latitude: -1.132355, Longitude: 101.012548, Altitude: 499.821437 km, Velocity: 7.614147 km/s
+1670385506.816 default: AZEL is not set (>30 deg ele)
+1670385506.816 default: AZ: 227.984131, EL: 48.714455, RX: 436806214 TX: 436794785
+1670385506.816 default: Sat Latitude: -1.099411, Longitude: 101.126775, Altitude: 499.816884 km, Velocity: 7.614152 km/s
+1670385508.848 default: AZEL is not set (>30 deg ele)
+1670385508.848 default: AZ: 227.118913, EL: 49.618389, RX: 436806069 TX: 436794930
+1670385508.848 default: Sat Latitude: -1.066462, Longitude: 101.240998, Altitude: 499.812310 km, Velocity: 7.614157 km/s
+1670385510.880 default: AZEL is not set (>30 deg ele)
+1670385510.880 default: AZ: 226.199013, EL: 50.535641, RX: 436805919 TX: 436795080
+1670385510.880 default: Sat Latitude: -1.033508, Longitude: 101.355219, Altitude: 499.807716 km, Velocity: 7.614162 km/s
+1670385512.911 default: AZEL is not set (>30 deg ele)
+1670385512.911 default: AZ: 225.219592, EL: 51.465328, RX: 436805763 TX: 436795236
+1670385512.911 default: Sat Latitude: -1.000550, Longitude: 101.469437, Altitude: 499.803102 km, Velocity: 7.614167 km/s
+1670385514.943 default: AZEL is not set (>30 deg ele)
+1670385514.943 default: AZ: 224.175277, EL: 52.406398, RX: 436805601 TX: 436795398
+1670385514.943 default: Sat Latitude: -0.967586, Longitude: 101.583655, Altitude: 499.798468 km, Velocity: 7.614171 km/s
+1670385516.975 default: AZEL is not set (>30 deg ele)
+1670385516.975 default: AZ: 223.060202, EL: 53.357523, RX: 436805434 TX: 436795565
+1670385516.975 default: Sat Latitude: -0.934618, Longitude: 101.697868, Altitude: 499.793813 km, Velocity: 7.614176 km/s
+1670385519.006 default: AZEL is not set (>30 deg ele)
+1670385519.007 default: AZ: 221.240422, EL: 54.799666, RX: 436805173 TX: 436795826
+1670385519.007 default: Sat Latitude: -0.885158, Longitude: 101.869185, Altitude: 499.786794 km, Velocity: 7.614184 km/s
+1670385521.038 default: AZEL is not set (>30 deg ele)
+1670385521.038 default: AZ: 219.918347, EL: 55.768666, RX: 436804991 TX: 436796008
+1670385521.038 default: Sat Latitude: -0.852180, Longitude: 101.983395, Altitude: 499.782089 km, Velocity: 7.614189 km/s
+1670385523.070 default: AZEL is not set (>30 deg ele)
+1670385523.070 default: AZ: 218.499646, EL: 56.741061, RX: 436804804 TX: 436796195
+1670385523.070 default: Sat Latitude: -0.819197, Longitude: 102.097602, Altitude: 499.777364 km, Velocity: 7.614194 km/s
+1670385525.102 default: AZEL is not set (>30 deg ele)
+1670385525.102 default: AZ: 216.975222, EL: 57.714209, RX: 436804611 TX: 436796388
+1670385525.102 default: Sat Latitude: -0.786211, Longitude: 102.211806, Altitude: 499.772619 km, Velocity: 7.614199 km/s
+1670385527.133 default: AZEL is not set (>30 deg ele)
+1670385527.133 default: AZ: 215.335202, EL: 58.685034, RX: 436804413 TX: 436796586
+1670385527.133 default: Sat Latitude: -0.753222, Longitude: 102.326009, Altitude: 499.767854 km, Velocity: 7.614204 km/s
+1670385529.165 default: AZEL is not set (>30 deg ele)
+1670385529.165 default: AZ: 213.568880, EL: 59.650018, RX: 436804209 TX: 436796790
+1670385529.165 default: Sat Latitude: -0.720228, Longitude: 102.440213, Altitude: 499.763068 km, Velocity: 7.614209 km/s
+1670385531.197 default: AZEL is not set (>30 deg ele)
+1670385531.197 default: AZ: 211.664917, EL: 60.605080, RX: 436803999 TX: 436797000
+1670385531.197 default: Sat Latitude: -0.687231, Longitude: 102.554412, Altitude: 499.758263 km, Velocity: 7.614214 km/s
+1670385533.229 default: AZEL is not set (>30 deg ele)
+1670385533.229 default: AZ: 209.611240, EL: 61.545642, RX: 436803784 TX: 436797215
+1670385533.229 default: Sat Latitude: -0.654232, Longitude: 102.668610, Altitude: 499.753438 km, Velocity: 7.614219 km/s
+1670385535.260 default: AZEL is not set (>30 deg ele)
+1670385535.260 default: AZ: 207.395344, EL: 62.466523, RX: 436803563 TX: 436797436
+1670385535.260 default: Sat Latitude: -0.621228, Longitude: 102.782809, Altitude: 499.748593 km, Velocity: 7.614224 km/s
+1670385537.292 default: AZEL is not set (>30 deg ele)
+1670385537.292 default: AZ: 205.004760, EL: 63.361851, RX: 436803338 TX: 436797661
+1670385537.292 default: Sat Latitude: -0.588222, Longitude: 102.897005, Altitude: 499.743727 km, Velocity: 7.614230 km/s
+1670385539.324 default: AZEL is not set (>30 deg ele)
+1670385539.324 default: AZ: 202.427275, EL: 64.225147, RX: 436803108 TX: 436797891
+1670385539.324 default: Sat Latitude: -0.555214, Longitude: 103.011199, Altitude: 499.738843 km, Velocity: 7.614235 km/s
+1670385541.355 default: AZEL is not set (>30 deg ele)
+1670385541.355 default: AZ: 199.651772, EL: 65.049251, RX: 436802873 TX: 436798126
+1670385541.355 default: Sat Latitude: -0.522203, Longitude: 103.125392, Altitude: 499.733938 km, Velocity: 7.614240 km/s
+1670385543.387 default: AZEL is not set (>30 deg ele)
+1670385543.387 default: AZ: 196.669027, EL: 65.826386, RX: 436802634 TX: 436798365
+1670385543.387 default: Sat Latitude: -0.489189, Longitude: 103.239586, Altitude: 499.729013 km, Velocity: 7.614246 km/s
+1670385545.419 default: AZEL is not set (>30 deg ele)
+1670385545.419 default: AZ: 193.473068, EL: 66.548178, RX: 436802391 TX: 436798608
+1670385545.419 default: Sat Latitude: -0.456173, Longitude: 103.353777, Altitude: 499.724068 km, Velocity: 7.614251 km/s
+1670385547.451 default: AZEL is not set (>30 deg ele)
+1670385547.451 default: AZ: 190.062146, EL: 67.205889, RX: 436802144 TX: 436798855
+1670385547.451 default: Sat Latitude: -0.423155, Longitude: 103.467966, Altitude: 499.719104 km, Velocity: 7.614256 km/s
+1670385549.482 default: AZEL is not set (>30 deg ele)
+1670385549.482 default: AZ: 186.440399, EL: 67.790568, RX: 436801895 TX: 436799104
+1670385549.482 default: Sat Latitude: -0.390135, Longitude: 103.582155, Altitude: 499.714120 km, Velocity: 7.614262 km/s
+1670385551.514 default: AZEL is not set (>30 deg ele)
+1670385551.514 default: AZ: 182.619103, EL: 68.293378, RX: 436801642 TX: 436799357
+1670385551.514 default: Sat Latitude: -0.357113, Longitude: 103.696346, Altitude: 499.709116 km, Velocity: 7.614267 km/s
+1670385553.546 default: AZEL is not set (>30 deg ele)
+1670385553.546 default: AZ: 178.618075, EL: 68.705930, RX: 436801388 TX: 436799611
+1670385553.546 default: Sat Latitude: -0.324090, Longitude: 103.810533, Altitude: 499.704093 km, Velocity: 7.614273 km/s
+1670385555.577 default: AZEL is not set (>30 deg ele)
+1670385555.577 default: AZ: 174.465714, EL: 69.020787, RX: 436801131 TX: 436799868
+1670385555.577 default: Sat Latitude: -0.291065, Longitude: 103.924720, Altitude: 499.699049 km, Velocity: 7.614278 km/s
+1670385557.609 default: AZEL is not set (>30 deg ele)
+1670385557.609 default: AZ: 170.198850, EL: 69.231877, RX: 436800874 TX: 436800125
+1670385557.609 default: Sat Latitude: -0.258038, Longitude: 104.038909, Altitude: 499.693987 km, Velocity: 7.614284 km/s
+1670385559.641 default: AZEL is not set (>30 deg ele)
+1670385559.641 default: AZ: 165.861611, EL: 69.334915, RX: 436800615 TX: 436800384
+1670385559.641 default: Sat Latitude: -0.225010, Longitude: 104.153095, Altitude: 499.688904 km, Velocity: 7.614289 km/s
+1670385561.672 default: AZEL is not set (>30 deg ele)
+1670385561.673 default: AZ: 161.502489, EL: 69.327754, RX: 436800357 TX: 436800642
+1670385561.673 default: Sat Latitude: -0.191981, Longitude: 104.267280, Altitude: 499.683802 km, Velocity: 7.614295 km/s
+1670385563.704 default: AZEL is not set (>30 deg ele)
+1670385563.704 default: AZ: 157.171546, EL: 69.210538, RX: 436800099 TX: 436800900
+1670385563.704 default: Sat Latitude: -0.158952, Longitude: 104.381465, Altitude: 499.678680 km, Velocity: 7.614300 km/s
+1670385565.736 default: AZEL is not set (>30 deg ele)
+1670385565.736 default: AZ: 152.916853, EL: 68.985692, RX: 436799841 TX: 436801158
+1670385565.736 default: Sat Latitude: -0.125921, Longitude: 104.495653, Altitude: 499.673539 km, Velocity: 7.614306 km/s
+1670385567.768 default: AZEL is not set (>30 deg ele)
+1670385567.768 default: AZ: 148.781762, EL: 68.657743, RX: 436799585 TX: 436801414
+1670385567.768 default: Sat Latitude: -0.092890, Longitude: 104.609838, Altitude: 499.668378 km, Velocity: 7.614312 km/s
+1670385569.800 default: AZEL is not set (>30 deg ele)
+1670385569.800 default: AZ: 144.802092, EL: 68.232958, RX: 436799331 TX: 436801668
+1670385569.800 default: Sat Latitude: -0.059858, Longitude: 104.724022, Altitude: 499.663198 km, Velocity: 7.614317 km/s
+1670385571.831 default: AZEL is not set (>30 deg ele)
+1670385571.831 default: AZ: 141.005204, EL: 67.718925, RX: 436799079 TX: 436801920
+1670385571.831 default: Sat Latitude: -0.026826, Longitude: 104.838207, Altitude: 499.657998 km, Velocity: 7.614323 km/s
+1670385573.863 default: AZEL is not set (>30 deg ele)
+1670385573.863 default: AZ: 137.409596, EL: 67.124080, RX: 436798829 TX: 436802170
+1670385573.863 default: Sat Latitude: 0.006206, Longitude: 104.952395, Altitude: 499.652779 km, Velocity: 7.614329 km/s
+1670385575.895 default: AZEL is not set (>30 deg ele)
+1670385575.895 default: AZ: 134.025789, EL: 66.457324, RX: 436798583 TX: 436802416
+1670385575.895 default: Sat Latitude: 0.039238, Longitude: 105.066580, Altitude: 499.647541 km, Velocity: 7.614335 km/s
+1670385577.926 default: AZEL is not set (>30 deg ele)
+1670385577.926 default: AZ: 130.857030, EL: 65.727585, RX: 436798340 TX: 436802659
+1670385577.926 default: Sat Latitude: 0.072270, Longitude: 105.180765, Altitude: 499.642283 km, Velocity: 7.614341 km/s
+1670385579.958 default: AZEL is not set (>30 deg ele)
+1670385579.958 default: AZ: 127.900936, EL: 64.943561, RX: 436798102 TX: 436802897
+1670385579.958 default: Sat Latitude: 0.105302, Longitude: 105.294954, Altitude: 499.637005 km, Velocity: 7.614346 km/s
+1670385581.990 default: AZEL is not set (>30 deg ele)
+1670385581.990 default: AZ: 125.151077, EL: 64.113563, RX: 436797867 TX: 436803132
+1670385581.990 default: Sat Latitude: 0.138333, Longitude: 105.409140, Altitude: 499.631709 km, Velocity: 7.614352 km/s
+1670385584.021 default: AZEL is not set (>30 deg ele)
+1670385584.022 default: AZ: 121.391630, EL: 62.799041, RX: 436797524 TX: 436803475
+1670385584.022 default: Sat Latitude: 0.187879, Longitude: 105.580420, Altitude: 499.623727 km, Velocity: 7.614361 km/s
+1670385586.053 default: AZEL is not set (>30 deg ele)
+1670385586.053 default: AZ: 119.112035, EL: 61.886425, RX: 436797302 TX: 436803697
+1670385586.053 default: Sat Latitude: 0.220908, Longitude: 105.694608, Altitude: 499.618382 km, Velocity: 7.614367 km/s
+1670385588.085 default: AZEL is not set (>30 deg ele)
+1670385588.085 default: AZ: 116.999281, EL: 60.951969, RX: 436797085 TX: 436803914
+1670385588.085 default: Sat Latitude: 0.253938, Longitude: 105.808799, Altitude: 499.613018 km, Velocity: 7.614373 km/s
+1670385590.117 default: AZEL is not set (>30 deg ele)
+1670385590.117 default: AZ: 115.040913, EL: 60.001146, RX: 436796873 TX: 436804126
+1670385590.117 default: Sat Latitude: 0.286965, Longitude: 105.922988, Altitude: 499.607635 km, Velocity: 7.614379 km/s
+1670385592.148 default: AZEL is not set (>30 deg ele)
+1670385592.148 default: AZ: 113.224660, EL: 59.038755, RX: 436796666 TX: 436804333
+1670385592.148 default: Sat Latitude: 0.319991, Longitude: 106.037178, Altitude: 499.602232 km, Velocity: 7.614385 km/s
+1670385594.180 default: AZEL is not set (>30 deg ele)
+1670385594.180 default: AZ: 111.538827, EL: 58.069026, RX: 436796465 TX: 436804534
+1670385594.180 default: Sat Latitude: 0.353016, Longitude: 106.151372, Altitude: 499.596810 km, Velocity: 7.614391 km/s
+1670385596.212 default: AZEL is not set (>30 deg ele)
+1670385596.212 default: AZ: 109.972528, EL: 57.095718, RX: 436796270 TX: 436804729
+1670385596.212 default: Sat Latitude: 0.386039, Longitude: 106.265564, Altitude: 499.591369 km, Velocity: 7.614398 km/s
+1670385598.243 default: AZEL is not set (>30 deg ele)
+1670385598.243 default: AZ: 108.515554, EL: 56.122058, RX: 436796081 TX: 436804918
+1670385598.243 default: Sat Latitude: 0.419061, Longitude: 106.379758, Altitude: 499.585909 km, Velocity: 7.614404 km/s
+1670385600.275 default: AZEL is not set (>30 deg ele)
+1670385600.275 default: AZ: 107.158534, EL: 55.150858, RX: 436795897 TX: 436805102
+1670385600.275 default: Sat Latitude: 0.452080, Longitude: 106.493952, Altitude: 499.580430 km, Velocity: 7.614410 km/s
+1670385602.307 default: AZEL is not set (>30 deg ele)
+1670385602.307 default: AZ: 105.892866, EL: 54.184528, RX: 436795719 TX: 436805280
+1670385602.307 default: Sat Latitude: 0.485098, Longitude: 106.608150, Altitude: 499.574932 km, Velocity: 7.614416 km/s
+1670385604.339 default: AZEL is not set (>30 deg ele)
+1670385604.339 default: AZ: 104.710781, EL: 53.225189, RX: 436795547 TX: 436805452
+1670385604.339 default: Sat Latitude: 0.518114, Longitude: 106.722348, Altitude: 499.569414 km, Velocity: 7.614422 km/s
+1670385606.370 default: AZEL is not set (>30 deg ele)
+1670385606.370 default: AZ: 103.605148, EL: 52.274599, RX: 436795380 TX: 436805619
+1670385606.371 default: Sat Latitude: 0.551127, Longitude: 106.836546, Altitude: 499.563878 km, Velocity: 7.614429 km/s
+1670385608.402 default: AZEL is not set (>30 deg ele)
+1670385608.402 default: AZ: 102.569524, EL: 51.334261, RX: 436795220 TX: 436805779
+1670385608.402 default: Sat Latitude: 0.584137, Longitude: 106.950747, Altitude: 499.558322 km, Velocity: 7.614435 km/s
+1670385610.434 default: AZEL is not set (>30 deg ele)
+1670385610.434 default: AZ: 101.598053, EL: 50.405418, RX: 436795064 TX: 436805935
+1670385610.434 default: Sat Latitude: 0.617146, Longitude: 107.064951, Altitude: 499.552748 km, Velocity: 7.614441 km/s
+1670385612.466 default: AZEL is not set (>30 deg ele)
+1670385612.466 default: AZ: 100.685492, EL: 49.489158, RX: 436794914 TX: 436806085
+1670385612.466 default: Sat Latitude: 0.650151, Longitude: 107.179155, Altitude: 499.547155 km, Velocity: 7.614448 km/s
+1670385614.497 default: AZEL is not set (>30 deg ele)
+1670385614.497 default: AZ: 99.827041, EL: 48.586321, RX: 436794769 TX: 436806230
+1670385614.497 default: Sat Latitude: 0.683153, Longitude: 107.293360, Altitude: 499.541542 km, Velocity: 7.614454 km/s
+1670385616.529 default: AZEL is not set (>30 deg ele)
+1670385616.529 default: AZ: 99.018373, EL: 47.697602, RX: 436794630 TX: 436806369
+1670385616.529 default: Sat Latitude: 0.716152, Longitude: 107.407567, Altitude: 499.535911 km, Velocity: 7.614460 km/s
+1670385618.561 default: AZEL is not set (>30 deg ele)
+1670385618.561 default: AZ: 98.255555, EL: 46.823533, RX: 436794495 TX: 436806504
+1670385618.561 default: Sat Latitude: 0.749148, Longitude: 107.521779, Altitude: 499.530261 km, Velocity: 7.614467 km/s
+1670385620.592 default: AZEL is not set (>30 deg ele)
+1670385620.592 default: AZ: 97.535068, EL: 45.964571, RX: 436794366 TX: 436806633
+1670385620.592 default: Sat Latitude: 0.782141, Longitude: 107.635990, Altitude: 499.524592 km, Velocity: 7.614473 km/s
+1670385622.624 default: AZEL is not set (>30 deg ele)
+1670385622.624 default: AZ: 96.853674, EL: 45.121007, RX: 436794241 TX: 436806758
+1670385622.624 default: Sat Latitude: 0.815130, Longitude: 107.750204, Altitude: 499.518904 km, Velocity: 7.614480 km/s
+1670385624.656 default: AZEL is not set (>30 deg ele)
+1670385624.656 default: AZ: 96.208436, EL: 44.293037, RX: 436794121 TX: 436806878
+1670385624.656 default: Sat Latitude: 0.848116, Longitude: 107.864422, Altitude: 499.513198 km, Velocity: 7.614486 km/s
+1670385626.687 default: AZEL is not set (>30 deg ele)
+1670385626.687 default: AZ: 95.596723, EL: 43.480822, RX: 436794006 TX: 436806993
+1670385626.688 default: Sat Latitude: 0.881097, Longitude: 107.978640, Altitude: 499.507472 km, Velocity: 7.614493 km/s
+1670385628.719 default: AZEL is not set (>30 deg ele)
+1670385628.719 default: AZ: 95.016101, EL: 42.684398, RX: 436793895 TX: 436807104
+1670385628.719 default: Sat Latitude: 0.914074, Longitude: 108.092860, Altitude: 499.501728 km, Velocity: 7.614499 km/s
+1670385630.751 default: AZEL is not set (>30 deg ele)
+1670385630.751 default: AZ: 94.464365, EL: 41.903756, RX: 436793788 TX: 436807211
+1670385630.751 default: Sat Latitude: 0.947047, Longitude: 108.207083, Altitude: 499.495965 km, Velocity: 7.614506 km/s
+1670385632.783 default: AZEL is not set (>30 deg ele)
+1670385632.783 default: AZ: 93.939493, EL: 41.138816, RX: 436793685 TX: 436807314
+1670385632.783 default: Sat Latitude: 0.980017, Longitude: 108.321310, Altitude: 499.490183 km, Velocity: 7.614513 km/s
+1670385634.814 default: AZEL is not set (>30 deg ele)
+1670385634.815 default: AZ: 93.439669, EL: 40.389497, RX: 436793586 TX: 436807413
+1670385634.815 default: Sat Latitude: 1.012982, Longitude: 108.435538, Altitude: 499.484383 km, Velocity: 7.614519 km/s
+1670385636.846 default: AZEL is not set (>30 deg ele)
+1670385636.846 default: AZ: 92.963199, EL: 39.655632, RX: 436793491 TX: 436807508
+1670385636.846 default: Sat Latitude: 1.045941, Longitude: 108.549769, Altitude: 499.478564 km, Velocity: 7.614526 km/s
+1670385638.878 default: AZEL is not set (>30 deg ele)
+1670385638.878 default: AZ: 92.508542, EL: 38.937038, RX: 436793399 TX: 436807600
+1670385638.878 default: Sat Latitude: 1.078897, Longitude: 108.664002, Altitude: 499.472726 km, Velocity: 7.614533 km/s
+1670385640.909 default: AZEL is not set (>30 deg ele)
+1670385640.910 default: AZ: 92.074276, EL: 38.233486, RX: 436793311 TX: 436807688
+1670385640.910 default: Sat Latitude: 1.111848, Longitude: 108.778240, Altitude: 499.466870 km, Velocity: 7.614540 km/s
+1670385642.941 default: AZEL is not set (>30 deg ele)
+1670385642.941 default: AZ: 91.659120, EL: 37.544769, RX: 436793226 TX: 436807773
+1670385642.941 default: Sat Latitude: 1.144793, Longitude: 108.892479, Altitude: 499.460995 km, Velocity: 7.614546 km/s
+1670385644.973 default: AZEL is not set (>30 deg ele)
+1670385644.973 default: AZ: 91.261869, EL: 36.870618, RX: 436793145 TX: 436807854
+1670385644.973 default: Sat Latitude: 1.177733, Longitude: 109.006721, Altitude: 499.455101 km, Velocity: 7.614553 km/s
+1670385647.005 default: AZEL is not set (>30 deg ele)
+1670385647.005 default: AZ: 90.697174, EL: 35.886090, RX: 436793029 TX: 436807970
+1670385647.005 default: Sat Latitude: 1.227133, Longitude: 109.178093, Altitude: 499.446226 km, Velocity: 7.614563 km/s
+1670385649.036 default: AZEL is not set (>30 deg ele)
+1670385649.036 default: AZ: 90.340058, EL: 35.247139, RX: 436792955 TX: 436808044
+1670385649.036 default: Sat Latitude: 1.260060, Longitude: 109.292343, Altitude: 499.440286 km, Velocity: 7.614570 km/s
+1670385651.068 default: AZEL is not set (>30 deg ele)
+1670385651.068 default: AZ: 89.997352, EL: 34.621757, RX: 436792884 TX: 436808115
+1670385651.068 default: Sat Latitude: 1.292980, Longitude: 109.406596, Altitude: 499.434328 km, Velocity: 7.614577 km/s
+1670385653.100 default: AZEL is not set (>30 deg ele)
+1670385653.100 default: AZ: 89.668223, EL: 34.009643, RX: 436792816 TX: 436808183
+1670385653.100 default: Sat Latitude: 1.325895, Longitude: 109.520853, Altitude: 499.428351 km, Velocity: 7.614584 km/s
+1670385655.132 default: AZEL is not set (>30 deg ele)
+1670385655.132 default: AZ: 89.351891, EL: 33.410477, RX: 436792750 TX: 436808249
+1670385655.132 default: Sat Latitude: 1.358804, Longitude: 109.635115, Altitude: 499.422356 km, Velocity: 7.614591 km/s
+1670385657.163 default: AZEL is not set (>30 deg ele)
+1670385657.163 default: AZ: 89.047653, EL: 32.823976, RX: 436792687 TX: 436808312
+1670385657.163 default: Sat Latitude: 1.391707, Longitude: 109.749379, Altitude: 499.416342 km, Velocity: 7.614598 km/s
+1670385659.195 default: AZEL is not set (>30 deg ele)
+1670385659.195 default: AZ: 88.754837, EL: 32.249821, RX: 436792626 TX: 436808373
+1670385659.195 default: Sat Latitude: 1.424603, Longitude: 109.863646, Altitude: 499.410310 km, Velocity: 7.614605 km/s
+1670385661.227 default: AZEL is not set (>30 deg ele)
+1670385661.227 default: AZ: 88.472819, EL: 31.687690, RX: 436792567 TX: 436808432
+1670385661.227 default: Sat Latitude: 1.457493, Longitude: 109.977919, Altitude: 499.404259 km, Velocity: 7.614612 km/s
+1670385663.258 default: AZEL is not set (>30 deg ele)
+1670385663.258 default: AZ: 88.201034, EL: 31.137303, RX: 436792511 TX: 436808488
+1670385663.259 default: Sat Latitude: 1.490376, Longitude: 110.092194, Altitude: 499.398190 km, Velocity: 7.614619 km/s
+1670385665.290 default: AZEL CMD locked.
+1670385665.290 default: AZ: 87.938940, EL: 30.598343, RX: 436792456 TX: 436808543
+1670385665.290 default: Sat Latitude: 1.523252, Longitude: 110.206472, Altitude: 499.392103 km, Velocity: 7.614627 km/s
+1670385667.322 default: AZEL CMD locked.
+1670385667.322 default: AZ: 87.686037, EL: 30.070511, RX: 436792404 TX: 436808595
+1670385667.322 default: Sat Latitude: 1.556122, Longitude: 110.320755, Altitude: 499.385997 km, Velocity: 7.614634 km/s
+1670385669.354 default: AZEL CMD locked.
+1670385669.354 default: AZ: 87.441852, EL: 29.553503, RX: 436792353 TX: 436808646
+1670385669.354 default: Sat Latitude: 1.588984, Longitude: 110.435044, Altitude: 499.379873 km, Velocity: 7.614641 km/s
+1670385671.386 default: AZEL CMD locked.
+1670385671.386 default: AZ: 87.205959, EL: 29.047048, RX: 436792305 TX: 436808694
+1670385671.386 default: Sat Latitude: 1.621839, Longitude: 110.549334, Altitude: 499.373731 km, Velocity: 7.614648 km/s
+1670385673.417 default: AZEL CMD locked.
+1670385673.417 default: AZ: 86.977944, EL: 28.550850, RX: 436792258 TX: 436808741
+1670385673.417 default: Sat Latitude: 1.654687, Longitude: 110.663629, Altitude: 499.367570 km, Velocity: 7.614655 km/s
+1670385675.449 default: AZEL CMD locked.
+1670385675.449 default: AZ: 86.757425, EL: 28.064630, RX: 436792213 TX: 436808786
+1670385675.449 default: Sat Latitude: 1.687527, Longitude: 110.777928, Altitude: 499.361392 km, Velocity: 7.614663 km/s
+1670385677.480 default: AZEL CMD locked.
+1670385677.480 default: AZ: 86.544039, EL: 27.588105, RX: 436792169 TX: 436808830
+1670385677.480 default: Sat Latitude: 1.720360, Longitude: 110.892234, Altitude: 499.355195 km, Velocity: 7.614670 km/s
+1670385679.512 default: AZEL CMD locked.
+1670385679.512 default: AZ: 86.337458, EL: 27.121026, RX: 436792128 TX: 436808871
+1670385679.512 default: Sat Latitude: 1.753184, Longitude: 111.006541, Altitude: 499.348979 km, Velocity: 7.614677 km/s
+1670385681.544 default: AZEL CMD locked.
+1670385681.544 default: AZ: 86.137361, EL: 26.663122, RX: 436792087 TX: 436808912
+1670385681.544 default: Sat Latitude: 1.786001, Longitude: 111.120854, Altitude: 499.342746 km, Velocity: 7.614685 km/s
+1670385683.575 default: AZEL CMD locked.
+1670385683.576 default: AZ: 85.943447, EL: 26.214129, RX: 436792048 TX: 436808951
+1670385683.576 default: Sat Latitude: 1.818810, Longitude: 111.235173, Altitude: 499.336494 km, Velocity: 7.614692 km/s
+1670385685.607 default: AZEL CMD locked.
+1670385685.607 default: AZ: 85.755446, EL: 25.773817, RX: 436792010 TX: 436808989
+1670385685.607 default: Sat Latitude: 1.851610, Longitude: 111.349494, Altitude: 499.330225 km, Velocity: 7.614699 km/s
+1670385687.639 default: AZEL CMD locked.
+1670385687.639 default: AZ: 85.573090, EL: 25.341935, RX: 436791974 TX: 436809025
+1670385687.639 default: Sat Latitude: 1.884401, Longitude: 111.463821, Altitude: 499.323937 km, Velocity: 7.614707 km/s
+1670385689.671 default: AZEL CMD locked.
+1670385689.671 default: AZ: 85.396130, EL: 24.918246, RX: 436791939 TX: 436809060
+1670385689.671 default: Sat Latitude: 1.917184, Longitude: 111.578152, Altitude: 499.317631 km, Velocity: 7.614714 km/s
+1670385691.703 default: AZEL CMD locked.
+1670385691.703 default: AZ: 85.224331, EL: 24.502514, RX: 436791905 TX: 436809094
+1670385691.703 default: Sat Latitude: 1.949959, Longitude: 111.692490, Altitude: 499.311307 km, Velocity: 7.614722 km/s
+1670385693.734 default: AZEL CMD locked.
+1670385693.734 default: AZ: 85.057477, EL: 24.094532, RX: 436791873 TX: 436809126
+1670385693.734 default: Sat Latitude: 1.982724, Longitude: 111.806831, Altitude: 499.304965 km, Velocity: 7.614729 km/s
+1670385695.766 default: AZEL CMD locked.
+1670385695.766 default: AZ: 84.895357, EL: 23.694077, RX: 436791841 TX: 436809158
+1670385695.766 default: Sat Latitude: 2.015480, Longitude: 111.921177, Altitude: 499.298605 km, Velocity: 7.614737 km/s
+1670385697.797 default: AZEL CMD locked.
+1670385697.797 default: AZ: 84.737775, EL: 23.300936, RX: 436791810 TX: 436809189
+1670385697.798 default: Sat Latitude: 2.048227, Longitude: 112.035528, Altitude: 499.292227 km, Velocity: 7.614745 km/s
+1670385699.829 default: AZEL CMD locked.
+1670385699.829 default: AZ: 84.584540, EL: 22.914900, RX: 436791781 TX: 436809218
+1670385699.830 default: Sat Latitude: 2.080965, Longitude: 112.149887, Altitude: 499.285831 km, Velocity: 7.614752 km/s
+1670385701.861 default: AZEL CMD locked.
+1670385701.861 default: AZ: 84.435483, EL: 22.535785, RX: 436791753 TX: 436809246
+1670385701.861 default: Sat Latitude: 2.113693, Longitude: 112.264248, Altitude: 499.279417 km, Velocity: 7.614760 km/s
+1670385703.893 default: AZEL CMD locked.
+1670385703.893 default: AZ: 84.290433, EL: 22.163392, RX: 436791725 TX: 436809274
+1670385703.893 default: Sat Latitude: 2.146412, Longitude: 112.378615, Altitude: 499.272985 km, Velocity: 7.614767 km/s
+1670385705.924 default: AZEL CMD locked.
+1670385705.924 default: AZ: 84.149232, EL: 21.797534, RX: 436791698 TX: 436809301
+1670385705.924 default: Sat Latitude: 2.179121, Longitude: 112.492988, Altitude: 499.266535 km, Velocity: 7.614775 km/s
+1670385707.956 default: AZEL CMD locked.
+1670385707.956 default: AZ: 84.011727, EL: 21.438023, RX: 436791673 TX: 436809326
+1670385707.956 default: Sat Latitude: 2.211820, Longitude: 112.607368, Altitude: 499.260067 km, Velocity: 7.614783 km/s
+1670385709.988 default: AZEL CMD locked.
+1670385709.988 default: AZ: 83.877781, EL: 21.084699, RX: 436791648 TX: 436809351
+1670385709.988 default: Sat Latitude: 2.244508, Longitude: 112.721752, Altitude: 499.253581 km, Velocity: 7.614791 km/s
+1670385712.019 default: AZEL CMD locked.
+1670385712.019 default: AZ: 83.683235, EL: 20.565931, RX: 436791612 TX: 436809387
+1670385712.020 default: Sat Latitude: 2.293522, Longitude: 112.893338, Altitude: 499.243819 km, Velocity: 7.614802 km/s
+1670385714.051 default: AZEL CMD locked.
+1670385714.051 default: AZ: 83.557598, EL: 20.227318, RX: 436791589 TX: 436809410
+1670385714.051 default: Sat Latitude: 2.326185, Longitude: 113.007738, Altitude: 499.237289 km, Velocity: 7.614810 km/s
+1670385716.083 default: AZEL CMD locked.
+1670385716.083 default: AZ: 83.435075, EL: 19.894321, RX: 436791567 TX: 436809432
+1670385716.083 default: Sat Latitude: 2.358837, Longitude: 113.122142, Altitude: 499.230741 km, Velocity: 7.614818 km/s
+1670385718.115 default: AZEL CMD locked.
+1670385718.115 default: AZ: 83.315548, EL: 19.566779, RX: 436791545 TX: 436809454
+1670385718.115 default: Sat Latitude: 2.391478, Longitude: 113.236552, Altitude: 499.224175 km, Velocity: 7.614826 km/s
+1670385720.146 default: AZEL CMD locked.
+1670385720.146 default: AZ: 83.198909, EL: 19.244541, RX: 436791525 TX: 436809474
+1670385720.147 default: Sat Latitude: 2.424109, Longitude: 113.350970, Altitude: 499.217591 km, Velocity: 7.614834 km/s
+1670385722.178 default: AZEL CMD locked.
+1670385722.179 default: AZ: 83.085057, EL: 18.927475, RX: 436791504 TX: 436809495
+1670385722.179 default: Sat Latitude: 2.456728, Longitude: 113.465392, Altitude: 499.210990 km, Velocity: 7.614842 km/s
+1670385724.210 default: AZEL CMD locked.
+1670385724.210 default: AZ: 82.973893, EL: 18.615437, RX: 436791485 TX: 436809514
+1670385724.210 default: Sat Latitude: 2.489336, Longitude: 113.579820, Altitude: 499.204370 km, Velocity: 7.614850 km/s
+1670385726.242 default: AZEL CMD locked.
+1670385726.242 default: AZ: 82.865323, EL: 18.308293, RX: 436791466 TX: 436809533
+1670385726.242 default: Sat Latitude: 2.521932, Longitude: 113.694254, Altitude: 499.197733 km, Velocity: 7.614858 km/s
+1670385728.273 default: AZEL CMD locked.
+1670385728.273 default: AZ: 82.759255, EL: 18.005907, RX: 436791448 TX: 436809551
+1670385728.273 default: Sat Latitude: 2.554518, Longitude: 113.808698, Altitude: 499.191079 km, Velocity: 7.614866 km/s
+1670385730.305 default: AZEL CMD locked.
+1670385730.305 default: AZ: 82.655607, EL: 17.708167, RX: 436791430 TX: 436809569
+1670385730.305 default: Sat Latitude: 2.587091, Longitude: 113.923145, Altitude: 499.184406 km, Velocity: 7.614874 km/s
+1670385732.337 default: AZEL CMD locked.
+1670385732.337 default: AZ: 82.554298, EL: 17.414943, RX: 436791413 TX: 436809586
+1670385732.337 default: Sat Latitude: 2.619652, Longitude: 114.037598, Altitude: 499.177716 km, Velocity: 7.614882 km/s
+1670385734.368 default: AZEL CMD locked.
+1670385734.369 default: AZ: 82.455247, EL: 17.126118, RX: 436791396 TX: 436809603
+1670385734.369 default: Sat Latitude: 2.652202, Longitude: 114.152059, Altitude: 499.171009 km, Velocity: 7.614890 km/s
+1670385736.400 default: AZEL CMD locked.
+1670385736.400 default: AZ: 82.358379, EL: 16.841573, RX: 436791380 TX: 436809619
+1670385736.400 default: Sat Latitude: 2.684740, Longitude: 114.266528, Altitude: 499.164283 km, Velocity: 7.614898 km/s
+1670385738.432 default: AZEL CMD locked.
+1670385738.432 default: AZ: 82.263627, EL: 16.561207, RX: 436791364 TX: 436809635
+1670385738.432 default: Sat Latitude: 2.717265, Longitude: 114.381002, Altitude: 499.157540 km, Velocity: 7.614906 km/s
+1670385740.464 default: AZEL CMD locked.
+1670385740.464 default: AZ: 82.170919, EL: 16.284908, RX: 436791349 TX: 436809650
+1670385740.464 default: Sat Latitude: 2.749777, Longitude: 114.495482, Altitude: 499.150780 km, Velocity: 7.614914 km/s
+1670385742.495 default: AZEL CMD locked.
+1670385742.495 default: AZ: 82.080192, EL: 16.012571, RX: 436791334 TX: 436809665
+1670385742.495 default: Sat Latitude: 2.782277, Longitude: 114.609970, Altitude: 499.144002 km, Velocity: 7.614923 km/s
+1670385744.527 default: AZEL CMD locked.
+1670385744.527 default: AZ: 81.991379, EL: 15.744092, RX: 436791320 TX: 436809679
+1670385744.527 default: Sat Latitude: 2.814765, Longitude: 114.724466, Altitude: 499.137206 km, Velocity: 7.614931 km/s
+1670385746.559 default: AZEL CMD locked.
+1670385746.559 default: AZ: 81.904425, EL: 15.479381, RX: 436791306 TX: 436809693
+1670385746.559 default: Sat Latitude: 2.847239, Longitude: 114.838968, Altitude: 499.130393 km, Velocity: 7.614939 km/s
+1670385748.591 default: AZEL CMD locked.
+1670385748.591 default: AZ: 81.819271, EL: 15.218341, RX: 436791293 TX: 436809706
+1670385748.591 default: Sat Latitude: 2.879700, Longitude: 114.953476, Altitude: 499.123562 km, Velocity: 7.614947 km/s
+1670385750.622 default: AZEL CMD locked.
+1670385750.622 default: AZ: 81.735859, EL: 14.960873, RX: 436791280 TX: 436809719
+1670385750.622 default: Sat Latitude: 2.912148, Longitude: 115.067994, Altitude: 499.116714 km, Velocity: 7.614956 km/s
+1670385752.654 default: AZEL CMD locked.
+1670385752.654 default: AZ: 81.654140, EL: 14.706900, RX: 436791267 TX: 436809732
+1670385752.654 default: Sat Latitude: 2.944583, Longitude: 115.182518, Altitude: 499.109848 km, Velocity: 7.614964 km/s
+1670385754.686 default: AZEL CMD locked.
+1670385754.686 default: AZ: 81.574060, EL: 14.456328, RX: 436791255 TX: 436809744
+1670385754.686 default: Sat Latitude: 2.977004, Longitude: 115.297048, Altitude: 499.102965 km, Velocity: 7.614972 km/s
+1670385756.717 default: AZEL CMD locked.
+1670385756.717 default: AZ: 81.495573, EL: 14.209076, RX: 436791243 TX: 436809756
+1670385756.717 default: Sat Latitude: 3.009411, Longitude: 115.411586, Altitude: 499.096065 km, Velocity: 7.614981 km/s
+1670385758.749 default: AZEL CMD locked.
+1670385758.749 default: AZ: 81.418628, EL: 13.965057, RX: 436791231 TX: 436809768
+1670385758.749 default: Sat Latitude: 3.041806, Longitude: 115.526133, Altitude: 499.089146 km, Velocity: 7.614989 km/s
+1670385760.781 default: AZEL CMD locked.
+1670385760.781 default: AZ: 81.343183, EL: 13.724202, RX: 436791220 TX: 436809779
+1670385760.781 default: Sat Latitude: 3.074185, Longitude: 115.640686, Altitude: 499.082211 km, Velocity: 7.614998 km/s
+1670385762.813 default: AZEL CMD locked.
+1670385762.813 default: AZ: 81.269195, EL: 13.486430, RX: 436791209 TX: 436809790
+1670385762.813 default: Sat Latitude: 3.106551, Longitude: 115.755247, Altitude: 499.075258 km, Velocity: 7.615006 km/s
+1670385764.844 default: AZEL CMD locked.
+1670385764.844 default: AZ: 81.196620, EL: 13.251667, RX: 436791199 TX: 436809800
+1670385764.844 default: Sat Latitude: 3.138902, Longitude: 115.869815, Altitude: 499.068288 km, Velocity: 7.615015 km/s
+1670385766.876 default: AZEL CMD locked.
+1670385766.876 default: AZ: 81.125418, EL: 13.019835, RX: 436791188 TX: 436809811
+1670385766.876 default: Sat Latitude: 3.171239, Longitude: 115.984394, Altitude: 499.061301 km, Velocity: 7.615023 km/s
+1670385768.908 default: AZEL CMD locked.
+1670385768.908 default: AZ: 81.055553, EL: 12.790876, RX: 436791178 TX: 436809821
+1670385768.908 default: Sat Latitude: 3.203562, Longitude: 116.098978, Altitude: 499.054296 km, Velocity: 7.615032 km/s
+1670385770.939 default: AZEL CMD locked.
+1670385770.939 default: AZ: 80.986985, EL: 12.564716, RX: 436791169 TX: 436809830
+1670385770.940 default: Sat Latitude: 3.235869, Longitude: 116.213570, Altitude: 499.047274 km, Velocity: 7.615040 km/s
+1670385772.971 default: AZEL CMD locked.
+1670385772.971 default: AZ: 80.919678, EL: 12.341286, RX: 436791159 TX: 436809840
+1670385772.971 default: Sat Latitude: 3.268163, Longitude: 116.328172, Altitude: 499.040234 km, Velocity: 7.615049 km/s
+1670385775.003 default: AZEL CMD locked.
+1670385775.003 default: AZ: 80.821011, EL: 12.011134, RX: 436791146 TX: 436809853
+1670385775.003 default: Sat Latitude: 3.316573, Longitude: 116.500087, Altitude: 499.029642 km, Velocity: 7.615062 km/s
+1670385777.034 default: AZEL CMD locked.
+1670385777.035 default: AZ: 80.756713, EL: 11.794268, RX: 436791137 TX: 436809862
+1670385777.035 default: Sat Latitude: 3.348828, Longitude: 116.614708, Altitude: 499.022560 km, Velocity: 7.615071 km/s
+1670385779.066 default: AZEL CMD locked.
+1670385779.066 default: AZ: 80.693560, EL: 11.579921, RX: 436791128 TX: 436809871
+1670385779.066 default: Sat Latitude: 3.381068, Longitude: 116.729337, Altitude: 499.015460 km, Velocity: 7.615079 km/s
+1670385781.098 default: AZEL CMD locked.
+1670385781.098 default: AZ: 80.631522, EL: 11.368031, RX: 436791120 TX: 436809879
+1670385781.098 default: Sat Latitude: 3.413292, Longitude: 116.843976, Altitude: 499.008343 km, Velocity: 7.615088 km/s
+1670385783.130 default: AZEL CMD locked.
+1670385783.130 default: AZ: 80.570573, EL: 11.158550, RX: 436791112 TX: 436809887
+1670385783.130 default: Sat Latitude: 3.445501, Longitude: 116.958622, Altitude: 499.001209 km, Velocity: 7.615097 km/s
+1670385785.161 default: AZEL CMD locked.
+1670385785.161 default: AZ: 80.510681, EL: 10.951420, RX: 436791104 TX: 436809895
+1670385785.162 default: Sat Latitude: 3.477693, Longitude: 117.073276, Altitude: 498.994057 km, Velocity: 7.615106 km/s
+1670385787.193 default: AZEL CMD locked.
+1670385787.193 default: AZ: 80.451819, EL: 10.746584, RX: 436791097 TX: 436809902
+1670385787.194 default: Sat Latitude: 3.509870, Longitude: 117.187941, Altitude: 498.986888 km, Velocity: 7.615115 km/s
+1670385789.225 default: AZEL CMD locked.
+1670385789.225 default: AZ: 80.393963, EL: 10.543999, RX: 436791089 TX: 436809910
+1670385789.225 default: Sat Latitude: 3.542031, Longitude: 117.302612, Altitude: 498.979702 km, Velocity: 7.615123 km/s
+1670385791.257 default: AZEL CMD locked.
+1670385791.257 default: AZ: 80.337086, EL: 10.343612, RX: 436791082 TX: 436809917
+1670385791.257 default: Sat Latitude: 3.574175, Longitude: 117.417293, Altitude: 498.972500 km, Velocity: 7.615132 km/s
+1670385793.288 default: AZEL CMD locked.
+1670385793.288 default: AZ: 80.281163, EL: 10.145373, RX: 436791075 TX: 436809924
+1670385793.288 default: Sat Latitude: 3.606302, Longitude: 117.531982, Altitude: 498.965280 km, Velocity: 7.615141 km/s
+1670385795.320 default: AZEL CMD locked.
+1670385795.320 default: AZ: 80.226169, EL: 9.949232, RX: 436791069 TX: 436809930
+1670385795.320 default: Sat Latitude: 3.638414, Longitude: 117.646682, Altitude: 498.958042 km, Velocity: 7.615150 km/s
+1670385795.320 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385797.320 default: AZEL CMD locked.
+1670385797.320 default: AZ: 80.172083, EL: 9.755151, RX: 436791062 TX: 436809937
+1670385797.320 default: Sat Latitude: 3.670508, Longitude: 117.761389, Altitude: 498.950788 km, Velocity: 7.615159 km/s
+1670385797.320 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385799.321 default: AZEL CMD locked.
+1670385799.321 default: AZ: 80.118883, EL: 9.563081, RX: 436791056 TX: 436809943
+1670385799.321 default: Sat Latitude: 3.702586, Longitude: 117.876105, Altitude: 498.943517 km, Velocity: 7.615168 km/s
+1670385799.321 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385801.321 default: AZEL CMD locked.
+1670385801.321 default: AZ: 80.066546, EL: 9.372979, RX: 436791049 TX: 436809950
+1670385801.321 default: Sat Latitude: 3.734646, Longitude: 117.990830, Altitude: 498.936228 km, Velocity: 7.615177 km/s
+1670385801.321 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385803.321 default: AZEL CMD locked.
+1670385803.321 default: AZ: 80.015050, EL: 9.184799, RX: 436791043 TX: 436809956
+1670385803.321 default: Sat Latitude: 3.766690, Longitude: 118.105566, Altitude: 498.928923 km, Velocity: 7.615186 km/s
+1670385803.321 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385805.322 default: AZEL CMD locked.
+1670385805.322 default: AZ: 79.964377, EL: 8.998508, RX: 436791038 TX: 436809961
+1670385805.322 default: Sat Latitude: 3.798716, Longitude: 118.220310, Altitude: 498.921600 km, Velocity: 7.615195 km/s
+1670385805.322 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385807.322 default: AZEL CMD locked.
+1670385807.322 default: AZ: 79.914508, EL: 8.814062, RX: 436791032 TX: 436809967
+1670385807.322 default: Sat Latitude: 3.830724, Longitude: 118.335063, Altitude: 498.914261 km, Velocity: 7.615204 km/s
+1670385807.322 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385809.322 default: AZEL CMD locked.
+1670385809.322 default: AZ: 79.865421, EL: 8.631418, RX: 436791026 TX: 436809973
+1670385809.322 default: Sat Latitude: 3.862716, Longitude: 118.449827, Altitude: 498.906904 km, Velocity: 7.615213 km/s
+1670385809.322 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385811.323 default: AZEL CMD locked.
+1670385811.323 default: AZ: 79.817100, EL: 8.450547, RX: 436791021 TX: 436809978
+1670385811.323 default: Sat Latitude: 3.894689, Longitude: 118.564599, Altitude: 498.899531 km, Velocity: 7.615222 km/s
+1670385811.323 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385813.323 default: AZEL CMD locked.
+1670385813.323 default: AZ: 79.769526, EL: 8.271408, RX: 436791016 TX: 436809983
+1670385813.323 default: Sat Latitude: 3.926644, Longitude: 118.679380, Altitude: 498.892141 km, Velocity: 7.615232 km/s
+1670385813.323 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385815.323 default: AZEL CMD locked.
+1670385815.323 default: AZ: 79.722683, EL: 8.093964, RX: 436791011 TX: 436809988
+1670385815.323 default: Sat Latitude: 3.958580, Longitude: 118.794171, Altitude: 498.884733 km, Velocity: 7.615241 km/s
+1670385815.323 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385817.324 default: AZEL CMD locked.
+1670385817.324 default: AZ: 79.676553, EL: 7.918178, RX: 436791006 TX: 436809993
+1670385817.324 default: Sat Latitude: 3.990500, Longitude: 118.908974, Altitude: 498.877309 km, Velocity: 7.615250 km/s
+1670385817.324 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385819.324 default: AZEL CMD locked.
+1670385819.324 default: AZ: 79.631121, EL: 7.744023, RX: 436791001 TX: 436809998
+1670385819.324 default: Sat Latitude: 4.022400, Longitude: 119.023784, Altitude: 498.869868 km, Velocity: 7.615259 km/s
+1670385819.324 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385821.324 default: AZEL CMD locked.
+1670385821.324 default: AZ: 79.586370, EL: 7.571462, RX: 436790997 TX: 436810002
+1670385821.324 default: Sat Latitude: 4.054282, Longitude: 119.138605, Altitude: 498.862410 km, Velocity: 7.615269 km/s
+1670385821.325 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385823.325 default: AZEL CMD locked.
+1670385823.325 default: AZ: 79.542286, EL: 7.400463, RX: 436790992 TX: 436810007
+1670385823.325 default: Sat Latitude: 4.086145, Longitude: 119.253435, Altitude: 498.854935 km, Velocity: 7.615278 km/s
+1670385823.325 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385825.325 default: AZEL CMD locked.
+1670385825.325 default: AZ: 79.498852, EL: 7.230991, RX: 436790988 TX: 436810011
+1670385825.325 default: Sat Latitude: 4.117990, Longitude: 119.368277, Altitude: 498.847443 km, Velocity: 7.615287 km/s
+1670385825.325 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385827.326 default: AZEL CMD locked.
+1670385827.326 default: AZ: 79.456056, EL: 7.063023, RX: 436790984 TX: 436810015
+1670385827.326 default: Sat Latitude: 4.149815, Longitude: 119.483128, Altitude: 498.839935 km, Velocity: 7.615297 km/s
+1670385827.326 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385829.326 default: AZEL CMD locked.
+1670385829.326 default: AZ: 79.413884, EL: 6.896525, RX: 436790979 TX: 436810020
+1670385829.326 default: Sat Latitude: 4.181622, Longitude: 119.597988, Altitude: 498.832409 km, Velocity: 7.615306 km/s
+1670385829.326 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385831.326 default: AZEL CMD locked.
+1670385831.326 default: AZ: 79.372321, EL: 6.731469, RX: 436790975 TX: 436810024
+1670385831.326 default: Sat Latitude: 4.213409, Longitude: 119.712859, Altitude: 498.824867 km, Velocity: 7.615315 km/s
+1670385831.327 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385833.327 default: AZEL CMD locked.
+1670385833.327 default: AZ: 79.331353, EL: 6.567822, RX: 436790972 TX: 436810027
+1670385833.327 default: Sat Latitude: 4.245177, Longitude: 119.827742, Altitude: 498.817308 km, Velocity: 7.615325 km/s
+1670385833.327 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385835.327 default: AZEL CMD locked.
+1670385835.327 default: AZ: 79.290971, EL: 6.405563, RX: 436790968 TX: 436810031
+1670385835.327 default: Sat Latitude: 4.276925, Longitude: 119.942633, Altitude: 498.809732 km, Velocity: 7.615334 km/s
+1670385835.327 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385837.327 default: AZEL CMD locked.
+1670385837.327 default: AZ: 79.251159, EL: 6.244664, RX: 436790964 TX: 436810035
+1670385837.327 default: Sat Latitude: 4.308653, Longitude: 120.057535, Altitude: 498.802140 km, Velocity: 7.615344 km/s
+1670385837.327 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385839.328 default: AZEL CMD locked.
+1670385839.328 default: AZ: 79.211906, EL: 6.085093, RX: 436790961 TX: 436810038
+1670385839.328 default: Sat Latitude: 4.340362, Longitude: 120.172449, Altitude: 498.794530 km, Velocity: 7.615353 km/s
+1670385839.328 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385841.328 default: AZEL CMD locked.
+1670385841.328 default: AZ: 79.173201, EL: 5.926833, RX: 436790957 TX: 436810042
+1670385841.328 default: Sat Latitude: 4.372050, Longitude: 120.287372, Altitude: 498.786904 km, Velocity: 7.615363 km/s
+1670385841.328 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385843.328 default: AZEL CMD locked.
+1670385843.328 default: AZ: 79.135032, EL: 5.769855, RX: 436790954 TX: 436810045
+1670385843.328 default: Sat Latitude: 4.403718, Longitude: 120.402305, Altitude: 498.779261 km, Velocity: 7.615372 km/s
+1670385843.328 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385845.329 default: AZEL CMD locked.
+1670385845.329 default: AZ: 79.097388, EL: 5.614134, RX: 436790951 TX: 436810048
+1670385845.329 default: Sat Latitude: 4.435366, Longitude: 120.517249, Altitude: 498.771602 km, Velocity: 7.615382 km/s
+1670385845.329 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385847.329 default: AZEL CMD locked.
+1670385847.329 default: AZ: 79.060258, EL: 5.459643, RX: 436790948 TX: 436810051
+1670385847.329 default: Sat Latitude: 4.466994, Longitude: 120.632206, Altitude: 498.763925 km, Velocity: 7.615391 km/s
+1670385847.329 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385849.329 default: AZEL CMD locked.
+1670385849.329 default: AZ: 79.023632, EL: 5.306367, RX: 436790945 TX: 436810054
+1670385849.329 default: Sat Latitude: 4.498601, Longitude: 120.747172, Altitude: 498.756233 km, Velocity: 7.615401 km/s
+1670385849.329 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385851.330 default: AZEL CMD locked.
+1670385851.330 default: AZ: 78.987500, EL: 5.154279, RX: 436790942 TX: 436810057
+1670385851.330 default: Sat Latitude: 4.530187, Longitude: 120.862148, Altitude: 498.748523 km, Velocity: 7.615411 km/s
+1670385851.330 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385853.330 default: AZEL CMD locked.
+1670385853.330 default: AZ: 78.951851, EL: 5.003356, RX: 436790939 TX: 436810060
+1670385853.330 default: Sat Latitude: 4.561752, Longitude: 120.977136, Altitude: 498.740797 km, Velocity: 7.615420 km/s
+1670385853.330 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385855.331 default: AZEL CMD locked.
+1670385855.331 default: AZ: 78.916675, EL: 4.853575, RX: 436790936 TX: 436810063
+1670385855.331 default: Sat Latitude: 4.593296, Longitude: 121.092137, Altitude: 498.733054 km, Velocity: 7.615430 km/s
+1670385855.331 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385857.331 default: AZEL CMD locked.
+1670385857.331 default: AZ: 78.881965, EL: 4.704921, RX: 436790934 TX: 436810065
+1670385857.331 default: Sat Latitude: 4.624819, Longitude: 121.207147, Altitude: 498.725295 km, Velocity: 7.615440 km/s
+1670385857.331 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385859.331 default: AZEL CMD locked.
+1670385859.331 default: AZ: 78.847710, EL: 4.557370, RX: 436790931 TX: 436810068
+1670385859.331 default: Sat Latitude: 4.656321, Longitude: 121.322168, Altitude: 498.717518 km, Velocity: 7.615450 km/s
+1670385859.331 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385861.332 default: AZEL CMD locked.
+1670385861.332 default: AZ: 78.813900, EL: 4.410899, RX: 436790929 TX: 436810070
+1670385861.332 default: Sat Latitude: 4.687801, Longitude: 121.437202, Altitude: 498.709726 km, Velocity: 7.615459 km/s
+1670385861.332 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385863.332 default: AZEL CMD locked.
+1670385863.332 default: AZ: 78.780529, EL: 4.265494, RX: 436790927 TX: 436810072
+1670385863.332 default: Sat Latitude: 4.719260, Longitude: 121.552245, Altitude: 498.701917 km, Velocity: 7.615469 km/s
+1670385863.332 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385865.332 default: AZEL CMD locked.
+1670385865.332 default: AZ: 78.747588, EL: 4.121133, RX: 436790924 TX: 436810075
+1670385865.332 default: Sat Latitude: 4.750696, Longitude: 121.667300, Altitude: 498.694091 km, Velocity: 7.615479 km/s
+1670385865.332 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385867.332 default: AZEL CMD locked.
+1670385867.333 default: AZ: 78.715067, EL: 3.977799, RX: 436790922 TX: 436810077
+1670385867.333 default: Sat Latitude: 4.782110, Longitude: 121.782367, Altitude: 498.686248 km, Velocity: 7.615489 km/s
+1670385867.333 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385869.333 default: AZEL CMD locked.
+1670385869.333 default: AZ: 78.682959, EL: 3.835468, RX: 436790920 TX: 436810079
+1670385869.333 default: Sat Latitude: 4.813504, Longitude: 121.897447, Altitude: 498.678389 km, Velocity: 7.615499 km/s
+1670385869.333 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385871.333 default: AZEL CMD locked.
+1670385871.333 default: AZ: 78.651257, EL: 3.694131, RX: 436790918 TX: 436810081
+1670385871.333 default: Sat Latitude: 4.844874, Longitude: 122.012536, Altitude: 498.670514 km, Velocity: 7.615509 km/s
+1670385871.333 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385873.334 default: AZEL CMD locked.
+1670385873.334 default: AZ: 78.619952, EL: 3.553765, RX: 436790916 TX: 436810083
+1670385873.334 default: Sat Latitude: 4.876221, Longitude: 122.127637, Altitude: 498.662622 km, Velocity: 7.615519 km/s
+1670385873.334 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385875.334 default: AZEL CMD locked.
+1670385875.334 default: AZ: 78.589037, EL: 3.414355, RX: 436790914 TX: 436810085
+1670385875.334 default: Sat Latitude: 4.907547, Longitude: 122.242750, Altitude: 498.654714 km, Velocity: 7.615529 km/s
+1670385875.334 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385877.334 default: AZEL CMD locked.
+1670385877.334 default: AZ: 78.558505, EL: 3.275880, RX: 436790912 TX: 436810087
+1670385877.334 default: Sat Latitude: 4.938850, Longitude: 122.357877, Altitude: 498.646789 km, Velocity: 7.615539 km/s
+1670385877.334 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385879.335 default: AZEL CMD locked.
+1670385879.335 default: AZ: 78.528348, EL: 3.138331, RX: 436790911 TX: 436810088
+1670385879.335 default: Sat Latitude: 4.970130, Longitude: 122.473014, Altitude: 498.638848 km, Velocity: 7.615549 km/s
+1670385879.335 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385881.335 default: AZEL CMD locked.
+1670385881.335 default: AZ: 78.498561, EL: 3.001688, RX: 436790909 TX: 436810090
+1670385881.335 default: Sat Latitude: 5.001386, Longitude: 122.588162, Altitude: 498.630890 km, Velocity: 7.615559 km/s
+1670385881.335 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385883.335 default: AZEL CMD locked.
+1670385883.335 default: AZ: 78.469136, EL: 2.865936, RX: 436790907 TX: 436810092
+1670385883.335 default: Sat Latitude: 5.032620, Longitude: 122.703323, Altitude: 498.622916 km, Velocity: 7.615569 km/s
+1670385883.335 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385885.335 default: AZEL CMD locked.
+1670385885.335 default: AZ: 78.440066, EL: 2.731058, RX: 436790906 TX: 436810093
+1670385885.336 default: Sat Latitude: 5.063831, Longitude: 122.818498, Altitude: 498.614925 km, Velocity: 7.615579 km/s
+1670385885.336 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385887.336 default: AZEL CMD locked.
+1670385887.336 default: AZ: 78.411346, EL: 2.597042, RX: 436790904 TX: 436810095
+1670385887.336 default: Sat Latitude: 5.095018, Longitude: 122.933682, Altitude: 498.606918 km, Velocity: 7.615589 km/s
+1670385887.336 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385889.336 default: AZEL CMD locked.
+1670385889.336 default: AZ: 78.382969, EL: 2.463874, RX: 436790903 TX: 436810096
+1670385889.336 default: Sat Latitude: 5.126181, Longitude: 123.048879, Altitude: 498.598895 km, Velocity: 7.615599 km/s
+1670385889.336 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385891.336 default: AZEL CMD locked.
+1670385891.336 default: AZ: 78.354928, EL: 2.331534, RX: 436790902 TX: 436810097
+1670385891.336 default: Sat Latitude: 5.157321, Longitude: 123.164091, Altitude: 498.590855 km, Velocity: 7.615609 km/s
+1670385891.337 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385893.337 default: AZEL CMD locked.
+1670385893.337 default: AZ: 78.327218, EL: 2.200016, RX: 436790900 TX: 436810099
+1670385893.337 default: Sat Latitude: 5.188437, Longitude: 123.279312, Altitude: 498.582798 km, Velocity: 7.615619 km/s
+1670385893.337 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385895.337 default: AZEL CMD locked.
+1670385895.337 default: AZ: 78.299833, EL: 2.069303, RX: 436790899 TX: 436810100
+1670385895.337 default: Sat Latitude: 5.219528, Longitude: 123.394546, Altitude: 498.574726 km, Velocity: 7.615630 km/s
+1670385895.337 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385897.337 default: AZEL CMD locked.
+1670385897.337 default: AZ: 78.272768, EL: 1.939380, RX: 436790898 TX: 436810101
+1670385897.337 default: Sat Latitude: 5.250596, Longitude: 123.509792, Altitude: 498.566637 km, Velocity: 7.615640 km/s
+1670385897.337 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385899.338 default: AZEL CMD locked.
+1670385899.338 default: AZ: 78.246016, EL: 1.810234, RX: 436790897 TX: 436810102
+1670385899.338 default: Sat Latitude: 5.281640, Longitude: 123.625054, Altitude: 498.558532 km, Velocity: 7.615650 km/s
+1670385899.338 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385901.338 default: AZEL CMD locked.
+1670385901.338 default: AZ: 78.219573, EL: 1.681856, RX: 436790896 TX: 436810103
+1670385901.338 default: Sat Latitude: 5.312658, Longitude: 123.740325, Altitude: 498.550410 km, Velocity: 7.615660 km/s
+1670385901.338 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385903.339 default: AZEL CMD locked.
+1670385903.339 default: AZ: 78.193433, EL: 1.554231, RX: 436790895 TX: 436810104
+1670385903.339 default: Sat Latitude: 5.343652, Longitude: 123.855609, Altitude: 498.542273 km, Velocity: 7.615671 km/s
+1670385903.339 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385905.339 default: AZEL CMD locked.
+1670385905.339 default: AZ: 78.167591, EL: 1.427347, RX: 436790894 TX: 436810105
+1670385905.339 default: Sat Latitude: 5.374622, Longitude: 123.970906, Altitude: 498.534119 km, Velocity: 7.615681 km/s
+1670385905.339 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385907.339 default: AZEL CMD locked.
+1670385907.339 default: AZ: 78.142042, EL: 1.301190, RX: 436790893 TX: 436810106
+1670385907.339 default: Sat Latitude: 5.405567, Longitude: 124.086218, Altitude: 498.525948 km, Velocity: 7.615691 km/s
+1670385907.339 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385909.340 default: AZEL CMD locked.
+1670385909.340 default: AZ: 78.116781, EL: 1.175753, RX: 436790893 TX: 436810106
+1670385909.340 default: Sat Latitude: 5.436486, Longitude: 124.201540, Altitude: 498.517761 km, Velocity: 7.615702 km/s
+1670385909.340 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385911.340 default: AZEL CMD locked.
+1670385911.340 default: AZ: 78.091803, EL: 1.051021, RX: 436790892 TX: 436810107
+1670385911.340 default: Sat Latitude: 5.467380, Longitude: 124.316876, Altitude: 498.509559 km, Velocity: 7.615712 km/s
+1670385911.340 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385913.340 default: AZEL CMD locked.
+1670385913.340 default: AZ: 78.067102, EL: 0.926982, RX: 436790891 TX: 436810108
+1670385913.340 default: Sat Latitude: 5.498250, Longitude: 124.432227, Altitude: 498.501339 km, Velocity: 7.615723 km/s
+1670385913.340 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385915.341 default: AZEL CMD locked.
+1670385915.341 default: AZ: 78.042676, EL: 0.803629, RX: 436790890 TX: 436810109
+1670385915.341 default: Sat Latitude: 5.529093, Longitude: 124.547588, Altitude: 498.493104 km, Velocity: 7.615733 km/s
+1670385915.341 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385917.341 default: AZEL CMD locked.
+1670385917.341 default: AZ: 78.018520, EL: 0.680949, RX: 436790890 TX: 436810109
+1670385917.341 default: Sat Latitude: 5.559910, Longitude: 124.662963, Altitude: 498.484853 km, Velocity: 7.615743 km/s
+1670385917.341 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385919.341 default: AZEL CMD locked.
+1670385919.342 default: AZ: 77.994628, EL: 0.558931, RX: 436790889 TX: 436810110
+1670385919.342 default: Sat Latitude: 5.590702, Longitude: 124.778350, Altitude: 498.476585 km, Velocity: 7.615754 km/s
+1670385919.342 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385921.342 default: AZEL CMD locked.
+1670385921.342 default: AZ: 77.970996, EL: 0.437563, RX: 436790889 TX: 436810110
+1670385921.342 default: Sat Latitude: 5.621469, Longitude: 124.893754, Altitude: 498.468301 km, Velocity: 7.615764 km/s
+1670385921.342 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385923.342 default: AZEL CMD locked.
+1670385923.342 default: AZ: 77.947621, EL: 0.316840, RX: 436790888 TX: 436810111
+1670385923.342 default: Sat Latitude: 5.652209, Longitude: 125.009168, Altitude: 498.460001 km, Velocity: 7.615775 km/s
+1670385923.342 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385925.342 default: AZEL CMD locked.
+1670385925.342 default: AZ: 77.924498, EL: 0.196748, RX: 436790888 TX: 436810111
+1670385925.343 default: Sat Latitude: 5.682922, Longitude: 125.124595, Altitude: 498.451685 km, Velocity: 7.615786 km/s
+1670385925.343 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385927.343 default: AZEL CMD locked.
+1670385927.343 default: AZ: 77.901623, EL: 0.077279, RX: 436790888 TX: 436810111
+1670385927.343 default: Sat Latitude: 5.713610, Longitude: 125.240036, Altitude: 498.443352 km, Velocity: 7.615796 km/s
+1670385927.343 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385929.343 default: AZEL CMD locked.
+1670385929.343 default: AZ: 77.878992, EL: -0.041579, RX: 436790887 TX: 436810112
+1670385929.343 default: Sat Latitude: 5.744271, Longitude: 125.355493, Altitude: 498.435003 km, Velocity: 7.615807 km/s
+1670385929.343 default: Not avalible for ground pass tracking (Min_elevation 10 deg)
+1670385931.344 default: AZEL CMD locked.
+1670385931.344 default: Ground pass ended: Wed Dec  7 11:05:29 2022
+1670385931.344 default: Tracking Satellite No. 1 in next ground pass
+1670385931.365 default: Select Lumelite 1 TX: 435200500 Rx: 435200500
+1670385931.365 default: Satellite Element ID: 41171
+1670385931.365 default: TLE update (Celestrack) starting ...
+1670385931.365 default: Element URL 
+1670385931.365 default: TLE1: 1 41171U 15077F   22205.42797628  .00006812  00000+0  30599-3 0  9995
+1670385931.365 default: TLE2: 2 41171  14.9901 242.5109 0007688 263.2297  96.7150 15.16242029365232
+1670385931.365 default: TLE update done
+1670385931.366 default: AOS: Wed Dec  7 11:19:33 2022 1670386773 @ 222 deg azimuth
+1670385931.366 default: LOS: Wed Dec  7 11:28:24 2022 1670387304 @ 130 deg azimuth
+1670385931.366 default: Max Elevation: 7 deg elevation 176 deg azimuth @ Wed Dec  7 11:23:58 2022
+1670385931.366 default: Ground pass initialisation done.
+1670385931.366 default: Preparing for next ground pass ...
+
+
+

@@ -1,10 +1,9 @@
-from PyQt5.QtGui import QIcon, QFont
-from PyQt5.QtCore import QDir, Qt, QUrl, QSize
+
 from PyQt5.QtMultimedia import QMediaContent, QMediaPlayer
 from PyQt5.QtMultimediaWidgets import QVideoWidget
-from PyQt5.QtWidgets import (QApplication, QFileDialog, QHBoxLayout, QLabel, 
-        QPushButton, QSizePolicy, QSlider, QStyle, QVBoxLayout, QWidget, QStatusBar)
-
+from PyQt5.QtCore import Qt, QUrl, QSize
+from PyQt5.QtGui import QFont
+from PyQt5.QtWidgets import (QWidget, QPushButton, QStyle, QSlider, QStatusBar, QVBoxLayout, QHBoxLayout)
 class VideoPlayer(QWidget):
     def __init__(self, parent=None):
         super(VideoPlayer, self).__init__(parent)
@@ -25,10 +24,6 @@ class VideoPlayer(QWidget):
         self.positionSlider.setRange(0, 0)
         self.positionSlider.sliderMoved.connect(self.setPosition)
 
-        self.statusBar = QStatusBar()
-        self.statusBar.setFont(QFont("Times New Roman", 7))
-        self.statusBar.setFixedHeight(14)
-
         controlLayout = QHBoxLayout()
         controlLayout.setContentsMargins(0, 0, 0, 0)
         controlLayout.addWidget(self.playButton)
@@ -37,7 +32,6 @@ class VideoPlayer(QWidget):
         layout = QVBoxLayout()
         layout.addWidget(videoWidget)
         layout.addLayout(controlLayout)
-        layout.addWidget(self.statusBar)
 
         self.setLayout(layout)
 
@@ -45,15 +39,12 @@ class VideoPlayer(QWidget):
         self.mediaPlayer.stateChanged.connect(self.mediaStateChanged)
         self.mediaPlayer.positionChanged.connect(self.positionChanged)
         self.mediaPlayer.durationChanged.connect(self.durationChanged)
-        self.mediaPlayer.error.connect(self.handleError)
-        self.statusBar.showMessage("Ready")
         
         fileName = "/Users/junyiho/Desktop/Centad/video.mp4"
         if fileName != '':
             self.mediaPlayer.setMedia(
                     QMediaContent(QUrl.fromLocalFile(fileName)))
             self.playButton.setEnabled(True)
-            self.statusBar.showMessage(fileName)
             self.play()
             
         self.setWindowTitle("Player")
@@ -83,12 +74,4 @@ class VideoPlayer(QWidget):
     def setPosition(self, position):
         self.mediaPlayer.setPosition(position)
 
-    def handleError(self):
-        self.playButton.setEnabled(False)
-        self.statusBar.showMessage("Error: " + self.mediaPlayer.errorString())
-
-if __name__ == '__main__':
-    import sys
-    app = QApplication(sys.argv)
-    player = VideoPlayer()
-    sys.exit(app.exec())
+ 

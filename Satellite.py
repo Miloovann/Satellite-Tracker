@@ -8,114 +8,34 @@
 
 """Satellite Tracking GUI developed using PyQt5"""
 
-import sys
-import numpy as np
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import Qt, QUrl, QRect, QSize
-from PyQt5.QtGui import *
-from PyQt5.QtMultimedia import QMediaContent, QMediaPlayer
-from PyQt5.QtMultimediaWidgets import QVideoWidget
+import sys, re
+from CCTV_Player import VideoPlayer
+from PolarPlot import MplCanvas
+from PyQt5.QtWidgets import (QMainWindow, QApplication, QHBoxLayout, QVBoxLayout, 
+                             QWidget, QFrame, QGridLayout, QLabel, QDesktopWidget)
+from PyQt5.QtCore import (Qt, QUrl, QRect)
+from PyQt5.QtCore import QTimer
+from PyQt5.QtGui import QFont
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-from datetime import datetime, timedelta
+from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
+import numpy as np
+from datetime import datetime
 import plotly.graph_objects as go
 import plotly.offline as offline
-import matplotlib
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg, NavigationToolbar2QT as NavigationToolbar
-matplotlib.use('Qt5Agg')
 
-class VideoPlayer(QWidget):
-    def __init__(self, parent=None):
-        super(VideoPlayer, self).__init__(parent)
+class Clock(QLabel):
+    def __init__(self):
+        super().__init__()
+        self.setFont(QFont("Times New Roman", 30))
+        self.setStyleSheet("color:aquamarine; border: none;")
+        self.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.update_time)
+        self.timer.start(1000)  # update every second
 
-        self.mediaPlayer = QMediaPlayer(None, QMediaPlayer.VideoSurface)
-
-        btnSize = QSize(16, 16)
-        videoWidget = QVideoWidget()
-
-        self.playButton = QPushButton()
-        self.playButton.setEnabled(False)
-        self.playButton.setFixedHeight(24)
-        self.playButton.setIconSize(btnSize)
-        self.playButton.setIcon(self.style().standardIcon(QStyle.SP_MediaPlay))
-        self.playButton.clicked.connect(self.play)
-
-        self.positionSlider = QSlider(Qt.Horizontal)
-        self.positionSlider.setRange(0, 0)
-        self.positionSlider.sliderMoved.connect(self.setPosition)
-
-        self.statusBar = QStatusBar()
-        self.statusBar.setFont(QFont("Times New Roman", 7))
-        self.statusBar.setFixedHeight(14)
-
-        controlLayout = QHBoxLayout()
-        controlLayout.setContentsMargins(0, 0, 0, 0)
-        controlLayout.addWidget(self.playButton)
-        controlLayout.addWidget(self.positionSlider)
-
-        layout = QVBoxLayout()
-        layout.addWidget(videoWidget)
-        layout.addLayout(controlLayout)
-        layout.addWidget(self.statusBar)
-
-        self.setLayout(layout)
-
-        self.mediaPlayer.setVideoOutput(videoWidget)
-        self.mediaPlayer.stateChanged.connect(self.mediaStateChanged)
-        self.mediaPlayer.positionChanged.connect(self.positionChanged)
-        self.mediaPlayer.durationChanged.connect(self.durationChanged)
-        self.mediaPlayer.error.connect(self.handleError)
-        self.statusBar.showMessage("Ready")
-        
-        fileName = "/Users/junyiho/Desktop/Centad/video.mp4"
-        if fileName != '':
-            self.mediaPlayer.setMedia(
-                    QMediaContent(QUrl.fromLocalFile(fileName)))
-            self.playButton.setEnabled(True)
-            self.statusBar.showMessage(fileName)
-            self.play()
-            
-        self.setWindowTitle("Player")
-        self.resize(600, 400)
-        self.show()
-
-    def play(self):
-        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
-            self.mediaPlayer.pause()
-        else:
-            self.mediaPlayer.play()
-
-    def mediaStateChanged(self, state):
-        if self.mediaPlayer.state() == QMediaPlayer.PlayingState:
-            self.playButton.setIcon(
-                    self.style().standardIcon(QStyle.SP_MediaPause))
-        else:
-            self.playButton.setIcon(
-                    self.style().standardIcon(QStyle.SP_MediaPlay))
-
-    def positionChanged(self, position):
-        self.positionSlider.setValue(position)
-
-    def durationChanged(self, duration):
-        self.positionSlider.setRange(0, duration)
-
-    def setPosition(self, position):
-        self.mediaPlayer.setPosition(position)
-
-    def handleError(self):
-        self.playButton.setEnabled(False)
-        self.statusBar.showMessage("Error: " + self.mediaPlayer.errorString())
-     
-class MplCanvas(FigureCanvasQTAgg):
-    def __init__(self, azimuth, elevation, width=5, height=4, dpi=100):
-        fig = plt.figure(figsize=(width, height), dpi=dpi)
-        ax = fig.add_subplot(polar=True)
-        ax.set_ylim(90, 0)
-        ax.set_yticks(np.arange(90,0, -30))
-        ax.plot(azimuth,elevation, lw=2)
-        super(MplCanvas, self).__init__(fig)
-
-WINDOW_SIZE = 900
+    def update_time(self):
+        current_time = datetime.now().strftime('%H:%M')
+        self.setText(current_time)
 
 class Satellite(QMainWindow):
     def __init__(self, parent=None):
@@ -124,23 +44,33 @@ class Satellite(QMainWindow):
     
     def create_UI(self):
         self.setWindowTitle("Satellite Tracker")
-        self.setMinimumSize(WINDOW_SIZE, WINDOW_SIZE)
+        desktop = QDesktopWidget()
+        screen_width = desktop.screenGeometry().width()
+        screen_height = desktop.screenGeometry().height()
+        self.setMinimumSize(screen_width, screen_height)
         
-        firstrow = QHBoxLayout()
+        
         timedis = self.displayTime()
         posdis = self.displayPosition()
+        video_player = VideoPlayer()
+        firstrow = QHBoxLayout()
         firstrow.addLayout(timedis)
         firstrow.addLayout(posdis)
+        firstrow.addWidget(video_player)
         
-        sidelayout = QHBoxLayout()
+        
         pplot = self.polarPlot()
         map = self.displayMap()
-        sidelayout.addLayout(pplot)
-        sidelayout.addLayout(map)
+        secondrow = QHBoxLayout()
+        secondrow.addLayout(pplot)
+        secondrow.addLayout(map)
+        
+        # firstrow.setStretch(1,1)
+        # secondrow.setStretch(1, 1)
         
         mainlayout = QVBoxLayout()
         mainlayout.addLayout(firstrow)
-        mainlayout.addLayout(sidelayout)
+        mainlayout.addLayout(secondrow)
         
         widget = QWidget()
         widget.setLayout(mainlayout)
@@ -165,14 +95,30 @@ class Satellite(QMainWindow):
         return obj
     
     def displayTime(self): 
-        timing = str(datetime.now().strftime("%H:%M"))
-        initial = str((datetime.now() - timedelta(hours=3)).strftime("%H:%M"))
-        final = str((datetime.now() + timedelta(hours=3)).strftime("%H:%M"))
+        aos_P = r"default: AOS: .* (\d+):(\d+):\d+ .*"
+        los_P = r"default: LOS: .* (\d+):(\d+):\d+ .*"
+
+        with open("main.txt", "r") as f:
+            x = f.readlines()
+            for txt in x:
+                if "default: AOS:" in txt:
+                    match = re.search(aos_P, txt)
+                    hour, minute = match.groups()
+                    initial = f"{hour}:{minute}"
+                    
+                elif "default: LOS:" in txt:
+                    match = re.search(los_P, txt)
+                    hour, minute = match.groups()
+                    final = f"{hour}:{minute}"
+                    break
+                
+        
+        localtime = Clock()
         
         layout = QGridLayout()
 
-        headers = ["Local Time", timing, "Contact Time", "Initial", initial, "Final", final]
-        localheader, localtime, contacttime, initialheader, initialtime, finalheader, finaltime = [self.setText(i) for i in headers]
+        headers = ["Local", "Contact", "Initial", initial, "Final", final]
+        localheader, contacttime, initialheader, initialtime, finalheader, finaltime = [self.setText(i) for i in headers]
 
         H = [self.setLine("H") for i in range(3)]
         linetop, linemid, linebtm = H[0], H[1], H[2]
@@ -209,20 +155,19 @@ class Satellite(QMainWindow):
     def displayPosition(self):
         layout = QGridLayout()
         
-        headers = ["Satellite", "Name", "Location", "Azimuth", "Elevation"]
-        title, SatName, SatLoc, SatAzi, SatEle = [self.setText(i) for i in headers]
+        headers = ["Satellite", "Name", "Azimuth", "Elevation"]
+        title, SatName, SatAzi, SatEle = [self.setText(i) for i in headers]
         
-        details = ["VELOX 2", "Singapore", "99.2", "76.1"]
-        Name1, Loc1, Azi1, Ele1 = [self.setText(i) for i in details]
+        details = ["VELOX 2", "99.2", "76.1"]
+        Name1, Azi1, Ele1 = [self.setText(i) for i in details]
         
         H = [self.setLine("H") for i in range(3)]
         linetop, linemid1, linebtm = H[0], H[1], H[2]
         
         V = [self.setLine("V") for i in range(5)]
-        lineleft, lineright, line1, line2, line3 = V[0], V[1], V[2], V[3], V[4]
+        lineleft, lineright, line1, line2 = V[0], V[1], V[2], V[3]
         line1.setStyleSheet("color:transparent")
         line2.setStyleSheet("color:transparent")
-        line3.setStyleSheet("color:transparent")
 
         maxrow, maxcol = 6, 8
 
@@ -231,24 +176,24 @@ class Satellite(QMainWindow):
         layout.addWidget(linetop,   0,      0,      1,        maxcol+1)    
         layout.addWidget(linebtm,   maxrow, 0,      1,        maxcol+1)
         layout.addWidget(linemid1, 2, 0, 1, maxcol+1)
-        [layout.addWidget(name, 2, pos*2, maxrow-1, 1) for pos, name in enumerate([line1, line2, line3], start=1)] ##invisible lines to format consistent gap
+        [layout.addWidget(name, 2, pos*2, maxrow-1, 1) for pos, name in enumerate([line1, line2], start=1)] ##invisible lines to format consistent gap
         
         
         layout.addWidget(title, 1, 1, 1, maxcol)
-        [layout.addWidget(name, 3, pos*2 + 1) for pos, name in enumerate([SatName, SatLoc, SatAzi, SatEle])]
-        [layout.addWidget(name, 4, pos*2 + 1) for pos, name in enumerate([Name1, Loc1, Azi1, Ele1])]
+        [layout.addWidget(name, 3, pos*2 + 1) for pos, name in enumerate([SatName, SatAzi, SatEle])]
+        [layout.addWidget(name, 4, pos*2 + 1) for pos, name in enumerate([Name1, Azi1, Ele1])]
         
         return layout
     
     def polarPlot(self):
-        with open("data.txt", "r") as f:
+        with open("main.txt", "r") as f:
             x = f.readlines()
             az, el = [], []
             for txt in x:
-
-                clean = txt[txt.find("AZ: ") + 4 : txt.find(", RX: ")]
-                az.append(float(clean[ : clean.find(",")]))
-                el.append(float(clean[clean.find(",")+6 : ]))
+                if "default: AZ: " in txt:
+                    clean = txt[txt.find("AZ: ") + 4 : txt.find(", RX: ")]
+                    az.append(float(clean[ : clean.find(",")]))
+                    el.append(float(clean[clean.find(",")+6 : ]))
                 
         azimuth = np.array(az)*np.pi/180
         elevation = np.array(el)
@@ -278,13 +223,14 @@ class Satellite(QMainWindow):
         layout.addWidget(linetop,   0,      0,      1,        maxcol+1)    
         layout.addWidget(linebtm,   maxrow, 0,      1,        maxcol+1)
          
-        with open("data2.txt", "r") as f:
+        with open("main.txt", "r") as f:
             x = f.readlines()
             lat, lon = [], []
             for txt in x:
-                clean = txt[txt.find("Latitude: ")+10 : txt.find(", Altitude")]
-                lat.append(float(clean[ : clean.find(",")]))
-                lon.append(float(clean[clean.find(",")+13 : ]))
+                if "default: Sat Latitude:" in txt:
+                    clean = txt[txt.find("Latitude: ")+10 : txt.find(", Altitude")]
+                    lat.append(float(clean[ : clean.find(",")]))
+                    lon.append(float(clean[clean.find(",")+13 : ]))
                 
         fig = go.Figure()
 
@@ -318,5 +264,4 @@ class Satellite(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     Sate = Satellite()
-    player = VideoPlayer()
     sys.exit(app.exec())
