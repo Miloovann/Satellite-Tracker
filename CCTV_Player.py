@@ -4,6 +4,9 @@ from PyQt5.QtMultimediaWidgets import QVideoWidget
 from PyQt5.QtCore import Qt, QUrl, QSize
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import (QWidget, QPushButton, QStyle, QSlider, QStatusBar, QVBoxLayout, QHBoxLayout)
+
+fileName = "/home/kelvin/Desktop/hci_project/video.mp4"
+
 class VideoPlayer(QWidget):
     def __init__(self, parent=None):
         super(VideoPlayer, self).__init__(parent)
@@ -40,12 +43,9 @@ class VideoPlayer(QWidget):
         self.mediaPlayer.positionChanged.connect(self.positionChanged)
         self.mediaPlayer.durationChanged.connect(self.durationChanged)
         
-        fileName = "/Users/junyiho/Desktop/Centad/video.mp4"
-        if fileName != '':
-            self.mediaPlayer.setMedia(
-                    QMediaContent(QUrl.fromLocalFile(fileName)))
-            self.playButton.setEnabled(True)
-            self.play()
+        self.mediaPlayer.setMedia(QMediaContent(QUrl.fromLocalFile(fileName)))
+        self.playButton.setEnabled(True)
+        self.play()
             
         self.setWindowTitle("Player")
         self.resize(600, 400)
